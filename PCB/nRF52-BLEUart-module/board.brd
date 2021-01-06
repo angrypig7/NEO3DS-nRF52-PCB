@@ -187,12 +187,12 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="40" y2="0" width="0" layer="20"/>
-<wire x1="40" y1="0" x2="40" y2="16" width="0" layer="20"/>
-<wire x1="40" y1="16" x2="0" y2="16" width="0" layer="20"/>
-<wire x1="0" y1="16" x2="0" y2="0" width="0" layer="20"/>
-<dimension x1="0" y1="0" x2="40" y2="0" x3="20" y3="-2" textsize="1.27" layer="51"/>
-<dimension x1="0" y1="0" x2="0" y2="16" x3="-2" y3="8" textsize="1.27" layer="51"/>
+<wire x1="0" y1="0" x2="55" y2="0" width="0" layer="20"/>
+<wire x1="55" y1="0" x2="55" y2="18" width="0" layer="20"/>
+<wire x1="55" y1="18" x2="0" y2="18" width="0" layer="20"/>
+<wire x1="0" y1="18" x2="0" y2="0" width="0" layer="20"/>
+<dimension x1="0" y1="0" x2="55" y2="0" x3="27.5" y3="-2" textsize="1.27" layer="51"/>
+<dimension x1="0" y1="0" x2="0" y2="18" x3="-2" y3="9" textsize="1.27" layer="51"/>
 </plain>
 <libraries>
 <library name="angrypig7-IC-MCU">
@@ -319,6 +319,266 @@
 </package>
 </packages>
 </library>
+<library name="angrypig7-RCL">
+<packages>
+<package name="C0402" urn="urn:adsk.eagle:footprint:23121/1" locally_modified="yes">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-0.2958" y1="0.224" x2="0.2958" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.2958" y1="-0.224" x2="-0.2958" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.0238" y1="0.433" x2="1.0238" y2="0.433" width="0.0508" layer="39"/>
+<wire x1="1.0238" y1="0.433" x2="1.0238" y2="-0.433" width="0.0508" layer="39"/>
+<wire x1="1.0238" y1="-0.433" x2="-1.0238" y2="-0.433" width="0.0508" layer="39"/>
+<wire x1="-1.0238" y1="-0.433" x2="-1.0238" y2="0.433" width="0.0508" layer="39"/>
+<smd name="1" x="-0.5508" y="0" dx="0.6" dy="0.65" layer="1"/>
+<smd name="2" x="0.5508" y="0" dx="0.6" dy="0.65" layer="1"/>
+<text x="0" y="1.27" size="1.143" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-1.27" size="1.143" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<rectangle x1="-0.6048" y1="-0.3048" x2="-0.3048" y2="0.2951" layer="51"/>
+<rectangle x1="0.3096" y1="-0.3048" x2="0.6096" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="C0603" urn="urn:adsk.eagle:footprint:23123/1" locally_modified="yes">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.473" y1="0.783" x2="1.473" y2="0.783" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.783" x2="1.473" y2="-0.783" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.783" x2="-1.473" y2="-0.783" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.783" x2="-1.473" y2="0.783" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="1.27" size="1.143" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-1.27" size="1.143" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="C0805" urn="urn:adsk.eagle:footprint:23124/1" locally_modified="yes">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="0" y="1.905" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.27" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
+<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
+<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" type="model">
+<description>Chip, 1.00 X 0.50 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="C0402"/>
+</packageinstances>
+</package3d>
+<package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" type="model">
+<description>CAPACITOR</description>
+<packageinstances>
+<packageinstance name="C0603"/>
+</packageinstances>
+</package3d>
+<package3d name="C0805" urn="urn:adsk.eagle:package:23617/2" type="model">
+<description>CAPACITOR</description>
+<packageinstances>
+<packageinstance name="C0805"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="angrypig7-Diodes">
+<packages>
+<package name="SOD-123" urn="urn:adsk.eagle:footprint:22471101/1" locally_modified="yes">
+<description>SOD-123, 3.75 mm span, 2.75 X 1.63 X 1.35 mm body
+&lt;p&gt;SOD package with 3.75 mm span with body size 2.75 X 1.63 X 1.35 mm&lt;/p&gt;</description>
+<smd name="C" x="-1.6" y="0" dx="0.988" dy="0.95" layer="1"/>
+<smd name="A" x="1.6" y="0" dx="0.988" dy="0.95" layer="1"/>
+<wire x1="-0.973" y1="0.7" x2="0.957" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="0.957" y1="0.7" x2="0.957" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="0.957" y1="-0.7" x2="-0.973" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="-0.973" y1="-0.7" x2="-0.973" y2="0.7" width="0.2032" layer="21"/>
+<text x="0" y="1.4572" size="1.143" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-1.4364" size="1.143" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<wire x1="-0.592" y1="-0.6" x2="-0.592" y2="0.6" width="0.254" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOD3716X135N" urn="urn:adsk.eagle:package:22471064/2" type="model">
+<description>SOD, 3.75 mm span, 2.75 X 1.63 X 1.35 mm body
+&lt;p&gt;SOD package with 3.75 mm span with body size 2.75 X 1.63 X 1.35 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOD-123"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="angrypig7-IC-Power">
+<packages>
+<package name="SOT-23-5" urn="urn:adsk.eagle:footprint:25814439/1" locally_modified="yes">
+<description>5-SOT23, 0.95 mm pitch, 2.83 mm span, 2.96 X 1.60 X 1.30 mm body
+&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.83 mm span with body size 2.96 X 1.60 X 1.30 mm&lt;/p&gt;</description>
+<wire x1="-0.85" y1="1.5586" x2="0.85" y2="1.5586" width="0.12" layer="21"/>
+<wire x1="-0.85" y1="-1.5586" x2="0.85" y2="-1.5586" width="0.12" layer="21"/>
+<wire x1="0.85" y1="-1.55" x2="-0.85" y2="-1.55" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="-1.55" x2="-0.85" y2="1.55" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="1.55" x2="0.85" y2="1.55" width="0.12" layer="51"/>
+<wire x1="0.85" y1="1.55" x2="0.85" y2="-1.55" width="0.12" layer="51"/>
+<smd name="1" x="-1.264" y="0.95" dx="1.1893" dy="0.5891" layer="1"/>
+<smd name="2" x="-1.264" y="0" dx="1.1893" dy="0.5891" layer="1"/>
+<smd name="3" x="-1.264" y="-0.95" dx="1.1893" dy="0.5891" layer="1"/>
+<smd name="4" x="1.264" y="-0.95" dx="1.1893" dy="0.5891" layer="1"/>
+<smd name="5" x="1.264" y="0.95" dx="1.1893" dy="0.5891" layer="1"/>
+<text x="-0.0508" y="1.778" size="1.016" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0.0127" y="-1.7399" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="bottom-center">&gt;VALUE</text>
+<wire x1="-0.9906" y1="1.397" x2="-1.8034" y2="1.397" width="0.1016" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOT-23-5" urn="urn:adsk.eagle:package:25814432/2" type="model">
+<description>5-SOT23, 0.95 mm pitch, 2.83 mm span, 2.96 X 1.60 X 1.30 mm body
+&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.83 mm span with body size 2.96 X 1.60 X 1.30 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT-23-5"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="angrypig7-Tests">
+<packages>
+<package name="PAD-3X-RECT-SILK">
+<smd name="P$1" x="-2.5" y="0" dx="2" dy="2.5" layer="1" roundness="30" rot="R180"/>
+<smd name="P$2" x="0" y="0" dx="2" dy="2.5" layer="1" roundness="30" rot="R180"/>
+<smd name="P$3" x="2.5" y="0" dx="2" dy="2.5" layer="1" roundness="30" rot="R180"/>
+<wire x1="-3.3" y1="1.5" x2="-3.8" y2="1" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.8" y1="1" x2="-3.8" y2="-1" width="0.1524" layer="21"/>
+<wire x1="-3.8" y1="-1" x2="-3.3" y2="-1.5" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.3" y1="-1.5" x2="3.3" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="3.3" y1="-1.5" x2="3.8" y2="-1" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.8" y1="-1" x2="3.8" y2="1" width="0.1524" layer="21"/>
+<wire x1="3.8" y1="1" x2="3.3" y2="1.5" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.3" y1="1.5" x2="-3.3" y2="1.5" width="0.1524" layer="21"/>
+<text x="0" y="2.5" size="1.143" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-4.1" y1="1" x2="-4.1" y2="-1" width="0.1524" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="angrypig7-Clocks">
+<packages>
+<package name="CRYSTAL-SMD-3.2X1.5MM" urn="urn:adsk.eagle:footprint:6644328/1" locally_modified="yes">
+<smd name="P$1" x="-1.25" y="0" dx="1.1" dy="1.9" layer="1"/>
+<smd name="P$2" x="1.25" y="0" dx="1.1" dy="1.9" layer="1"/>
+<wire x1="-0.5" y1="0.85" x2="0.5" y2="0.85" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="-0.85" x2="-0.5" y2="-0.85" width="0.2032" layer="21"/>
+<text x="0" y="1.043" size="1.143" layer="25" font="vector" ratio="15" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.043" size="1.143" layer="27" font="vector" ratio="15" align="top-center">&gt;Value</text>
+</package>
+<package name="CRYSTAL-SMD-2.0X1.6MM" urn="urn:adsk.eagle:footprint:25385701/1" locally_modified="yes">
+<description>Oscillator Corner Concave, 2.00 X 1.60 X 0.50 mm body
+&lt;p&gt;Oscillator Corner Concave package with body size 2.00 X 1.60 X 0.50 mm&lt;/p&gt;</description>
+<wire x1="-1.2659" y1="-0.0849" x2="-1.2659" y2="0.0849" width="0.12" layer="21"/>
+<wire x1="1.2659" y1="-0.0849" x2="1.2659" y2="0.0849" width="0.12" layer="21"/>
+<wire x1="-0.0151" y1="0.9659" x2="0.0151" y2="0.9659" width="0.12" layer="21"/>
+<wire x1="-0.0151" y1="-0.9659" x2="0.0151" y2="-0.9659" width="0.12" layer="21"/>
+<wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.12" layer="51"/>
+<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.12" layer="51"/>
+<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.12" layer="51"/>
+<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.12" layer="51"/>
+<smd name="1" x="-0.725" y="-0.575" dx="0.95" dy="0.85" layer="1"/>
+<smd name="2" x="0.725" y="-0.575" dx="0.95" dy="0.85" layer="1"/>
+<smd name="3" x="0.725" y="0.575" dx="0.95" dy="0.85" layer="1"/>
+<smd name="4" x="-0.725" y="0.575" dx="0.95" dy="0.85" layer="1"/>
+<text x="0" y="1.27" size="1.143" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.27" size="1.143" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="GHI2_CRYSTAL_3.2X1.5" urn="urn:adsk.eagle:package:6644366/3" type="model">
+<packageinstances>
+<packageinstance name="CRYSTAL-SMD-3.2X1.5MM"/>
+</packageinstances>
+</package3d>
+<package3d name="OSCCC200X160X50N" urn="urn:adsk.eagle:package:25385694/1" type="model">
+<description>Oscillator Corner Concave, 2.00 X 1.60 X 0.50 mm body
+&lt;p&gt;Oscillator Corner Concave package with body size 2.00 X 1.60 X 0.50 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CRYSTAL-SMD-2.0X1.6MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="angrypig7-Connectors-Programming">
+<packages>
+<package name="TC2030-IDC-NL">
+<smd name="2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<hole x="-2.54" y="0" drill="0.9906"/>
+<hole x="2.54" y="1.016" drill="0.9906"/>
+<hole x="2.54" y="-1.016" drill="0.9906"/>
+<rectangle x1="-1.016" y1="-0.381" x2="1.016" y2="0.381" layer="41"/>
+<text x="0" y="2.413" size="0.762" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="angrypig7-Connectors-PinHeads">
+<packages>
+<package name="1X04" urn="urn:adsk.eagle:footprint:22258/1" locally_modified="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<text x="0" y="1.524" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="top-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="1X04" urn="urn:adsk.eagle:package:22407/2" type="model">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X04"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 <attribute name="CNAME" value="nRF52-BLEUart-module"/>
@@ -329,7 +589,7 @@
 <classes>
 <class number="0" name="default" width="0.2032" drill="0">
 </class>
-<class number="1" name="power" width="0.3556" drill="0">
+<class number="1" name="power" width="0.3048" drill="0">
 </class>
 </classes>
 <designrules name="JLCPCB_2-Layer - safe">
@@ -513,21 +773,294 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="angrypig7-IC-MCU" package="QFN40P600X600X90-49T450N" package3d_urn="urn:adsk.eagle:package:25776865/1" value="NRF52832" x="20.066" y="8.128" smashed="yes">
-<attribute name="NAME" x="20.066" y="11.8649" size="1.143" layer="25" font="vector" ratio="12" align="bottom-center"/>
-<attribute name="VALUE" x="20.066" y="4.3911" size="1.143" layer="27" font="vector" ratio="12" align="top-center"/>
+<element name="U1" library="angrypig7-IC-MCU" package="QFN40P600X600X90-49T450N" package3d_urn="urn:adsk.eagle:package:25776865/1" value="NRF52832" x="37.719" y="9.652" smashed="yes">
+<attribute name="LCSC" value="C77540" x="37.719" y="9.652" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="33.2201" y="7.112" size="1.143" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="37.719" y="5.9151" size="1.143" layer="27" font="vector" ratio="12" align="top-center"/>
 </element>
-<element name="J1" library="angrypig7-Connectors-USB" package="USB-A-H-RECT" value="USB-A_PTH_MALE" x="3.048" y="8.001" smashed="yes">
-<attribute name="NAME" x="6.858" y="8.001" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="8.382" y="8.255" size="1.143" layer="27" font="vector" ratio="15" rot="R270" align="bottom-center"/>
+<element name="J1" library="angrypig7-Connectors-USB" package="USB-A-H-RECT" value="USB-A_PTH_MALE" x="3.175" y="9.271" smashed="yes">
+<attribute name="LCSC" value="C98125" x="3.175" y="9.271" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.985" y="9.271" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="8.509" y="9.525" size="1.143" layer="27" font="vector" ratio="15" rot="R270" align="bottom-center"/>
+</element>
+<element name="C1" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0402" x="3.078" y="19.966" smashed="yes" rot="R90">
+<attribute name="NAME" x="1.808" y="19.966" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="3.078" y="19.966" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="4.348" y="19.966" size="1.143" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+</element>
+<element name="C2" library="angrypig7-RCL" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0603" x="6.634" y="19.966" smashed="yes" rot="R90">
+<attribute name="NAME" x="5.364" y="19.966" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="6.634" y="19.966" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="7.904" y="19.966" size="1.143" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+</element>
+<element name="C3" library="angrypig7-RCL" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0805" x="10.952" y="20.474" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.047" y="20.474" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="10.952" y="20.474" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="12.857" y="20.474" size="1.27" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+</element>
+<element name="C4" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF" x="7.112" y="2.921" smashed="yes" rot="R180">
+<attribute name="LCSC" value="C1525" x="7.112" y="2.921" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="7.112" y="1.651" size="1.143" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="5.842" y="2.921" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="7.112" y="4.191" size="1.143" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
+</element>
+<element name="D1" library="angrypig7-Diodes" package="SOD-123" package3d_urn="urn:adsk.eagle:package:22471064/2" value="B5819W" x="9.525" y="4.445" smashed="yes" rot="R180">
+<attribute name="LCSC" value="C8598" x="9.525" y="4.445" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="9.525" y="2.9878" size="1.143" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="9.525" y="5.8814" size="1.143" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
+</element>
+<element name="C5" library="angrypig7-RCL" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF" x="15.382" y="20.512" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C19702" x="15.382" y="20.512" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="14.112" y="20.512" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="15.382" y="21.512" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="16.652" y="20.512" size="1.143" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+</element>
+<element name="VR1" library="angrypig7-IC-Power" package="SOT-23-5" package3d_urn="urn:adsk.eagle:package:25814432/2" value="AP2210K-3.3TRG" x="12.573" y="10.795" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C176959" x="12.573" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="10.795" y="10.8712" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="10.8331" y="10.7823" size="1.016" layer="27" font="vector" ratio="12" rot="R90" align="bottom-center"/>
+</element>
+<element name="C9" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF" x="13.081" y="13.589" smashed="yes" rot="R180">
+<attribute name="LCSC" value="C52923" x="11.43" y="13.589" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="13.081" y="14.732" size="1.143" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="11.43" y="13.589" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="13.081" y="14.859" size="1.143" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
+</element>
+<element name="C6" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF" x="11.684" y="7.493" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C1525" x="11.684" y="6.858" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.954" y="7.493" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="11.684" y="6.858" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="10.414" y="7.493" size="1.143" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+</element>
+<element name="C10" library="angrypig7-RCL" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF" x="15.113" y="10.668" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C23630" x="15.113" y="11.557" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="16.51" y="10.668" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="15.113" y="11.557" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="16.383" y="10.668" size="1.143" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+</element>
+<element name="TP1" library="angrypig7-Tests" package="PAD-3X-RECT-SILK" value="TEST-POINT-3" x="16.002" y="3.429" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.002" y="0.929" size="1.143" layer="21" font="vector" ratio="15" rot="R180" align="center"/>
+</element>
+<element name="Y1" library="angrypig7-Clocks" package="CRYSTAL-SMD-3.2X1.5MM" package3d_urn="urn:adsk.eagle:package:6644366/3" value="32.768kHz" x="31.496" y="11.811" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C32346" x="31.496" y="11.811" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="31.496" y="13.87" size="1.143" layer="25" font="vector" ratio="15" align="bottom-center"/>
+<attribute name="VALUE" x="32.539" y="11.811" size="1.143" layer="27" font="vector" ratio="15" rot="R90" align="top-center"/>
+</element>
+<element name="C7" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="12pF" x="29.718" y="10.668" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C1547" x="29.718" y="10.668" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="28.575" y="10.668" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="29.718" y="9.652" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="28.448" y="10.668" size="1.143" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+</element>
+<element name="C8" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="12pF" x="29.718" y="12.954" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C1547" x="29.718" y="14.097" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="28.575" y="12.954" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="29.718" y="14.097" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="30.988" y="12.954" size="1.143" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+</element>
+<element name="C11" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF" x="33.401" y="12.7" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C1525" x="33.401" y="13.335" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="33.401" y="15.113" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="33.401" y="13.335" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="34.671" y="12.7" size="1.143" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+</element>
+<element name="C12" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7uF" x="34.671" y="14.224" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C23733" x="34.671" y="14.859" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="34.671" y="16.637" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="34.671" y="14.859" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="35.941" y="14.224" size="1.143" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+</element>
+<element name="C13" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF" x="36.322" y="13.97" smashed="yes">
+<attribute name="LCSC" value="C1525" x="36.957" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="36.322" y="15.875" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="36.957" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="36.322" y="12.7" size="1.143" layer="27" font="vector" ratio="15" align="center"/>
+</element>
+<element name="C14" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF" x="34.925" y="5.588" smashed="yes" rot="R180">
+<attribute name="LCSC" value="C1525" x="34.29" y="5.588" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="34.925" y="4.318" size="1.143" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="34.29" y="5.588" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="34.925" y="6.858" size="1.143" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
+</element>
+<element name="C15" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF" x="40.767" y="13.97" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C1525" x="40.767" y="14.605" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="40.767" y="16.383" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="40.767" y="14.605" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="42.037" y="13.97" size="1.143" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+</element>
+<element name="TC1" library="angrypig7-Connectors-Programming" package="TC2030-IDC-NL" value="TC2030-IDC-NL" x="43.561" y="5.334" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.148" y="5.334" size="0.762" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+</element>
+<element name="JP1" library="angrypig7-Connectors-PinHeads" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="1.524" y="9.271" smashed="yes" rot="R90">
+<attribute name="NAME" x="0" y="9.271" size="1.27" layer="25" font="vector" ratio="15" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="3.048" y="9.271" size="1.27" layer="27" font="vector" ratio="15" rot="R90" align="top-center"/>
+</element>
+<element name="C16" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="12pF" x="43.815" y="11.43" smashed="yes" rot="R180">
+<attribute name="LCSC" value="C1547" x="42.672" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="46.355" y="11.43" size="1.143" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="42.672" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="43.815" y="12.7" size="1.143" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
+</element>
+<element name="C17" library="angrypig7-RCL" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="12pF" x="43.815" y="15.24" smashed="yes">
+<attribute name="LCSC" value="C1547" x="44.958" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="46.355" y="15.24" size="1.143" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="SPICEPREFIX" value="C" x="44.958" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="43.815" y="13.97" size="1.143" layer="27" font="vector" ratio="15" align="center"/>
+</element>
+<element name="Y2" library="angrypig7-Clocks" package="CRYSTAL-SMD-2.0X1.6MM" package3d_urn="urn:adsk.eagle:package:25385694/1" value="32MHz_2016" x="43.815" y="13.335" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.085" y="13.335" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="45.085" y="13.335" size="1.143" layer="27" font="vector" ratio="15" rot="R90" align="top-center"/>
 </element>
 </elements>
 <signals>
-<signal name="VBUS">
-<contactref element="J1" pad="VBUS"/>
+<signal name="USB_D_N">
+<contactref element="J1" pad="D-"/>
 </signal>
-<signal name="GND">
+<signal name="USB_D_P">
+<contactref element="J1" pad="D+"/>
+</signal>
+<signal name="N$2" class="1">
+<contactref element="J1" pad="VBUS"/>
+<contactref element="C4" pad="1"/>
+<contactref element="D1" pad="A"/>
+<wire x1="7.925" y1="4.445" x2="5.575" y2="5.771" width="0" layer="19" extent="1-1"/>
+<wire x1="7.6628" y1="2.921" x2="7.925" y2="4.445" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND" class="1">
+<contactref element="J1" pad="SHIELD@3"/>
+<contactref element="J1" pad="SHIELD@2"/>
+<contactref element="J1" pad="SHIELD@0"/>
+<contactref element="J1" pad="SHIELD@1"/>
 <contactref element="J1" pad="GND"/>
+<contactref element="C4" pad="2"/>
+<polygon width="0.2032" layer="1" rank="6">
+<vertex x="0" y="18"/>
+<vertex x="55" y="18"/>
+<vertex x="55" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
+<polygon width="0.2032" layer="16" rank="6">
+<vertex x="0" y="18"/>
+<vertex x="55" y="18"/>
+<vertex x="55" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
+<contactref element="VR1" pad="2"/>
+<contactref element="C9" pad="2"/>
+<contactref element="C6" pad="2"/>
+<contactref element="C10" pad="2"/>
+<contactref element="TP1" pad="P$1"/>
+<contactref element="C8" pad="1"/>
+<contactref element="C7" pad="1"/>
+<contactref element="C11" pad="2"/>
+<contactref element="C12" pad="2"/>
+<contactref element="C13" pad="2"/>
+<contactref element="U1" pad="45"/>
+<contactref element="C14" pad="2"/>
+<contactref element="C15" pad="2"/>
+<contactref element="TC1" pad="5"/>
+<contactref element="C16" pad="2"/>
+<contactref element="C17" pad="2"/>
+<contactref element="Y2" pad="2"/>
+<contactref element="Y2" pad="4"/>
+</signal>
+<signal name="5V">
+<contactref element="D1" pad="C"/>
+<contactref element="VR1" pad="1"/>
+<contactref element="VR1" pad="3"/>
+<contactref element="C9" pad="1"/>
+<contactref element="TP1" pad="P$3"/>
+<wire x1="13.523" y1="12.059" x2="13.6318" y2="13.589" width="0" layer="19" extent="1-1"/>
+<wire x1="11.623" y1="12.059" x2="13.523" y2="12.059" width="0" layer="19" extent="1-1"/>
+<wire x1="11.125" y1="4.445" x2="11.623" y2="12.059" width="0" layer="19" extent="1-1"/>
+<wire x1="13.502" y1="3.429" x2="11.125" y2="4.445" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="VR1" pad="4"/>
+<contactref element="C6" pad="1"/>
+<wire x1="11.684" y1="8.0438" x2="11.623" y2="9.531" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="3V3" class="1">
+<contactref element="VR1" pad="5"/>
+<contactref element="C10" pad="1"/>
+<contactref element="TP1" pad="P$2"/>
+<contactref element="U1" pad="48"/>
+<contactref element="C12" pad="1"/>
+<contactref element="C14" pad="1"/>
+<contactref element="U1" pad="13"/>
+<contactref element="C15" pad="1"/>
+<contactref element="U1" pad="36"/>
+<contactref element="TC1" pad="1"/>
+<wire x1="40.6696" y1="11.852" x2="40.767" y2="13.4192" width="0" layer="19" extent="1-1"/>
+<wire x1="35.519" y1="12.6026" x2="40.6696" y2="11.852" width="0" layer="19" extent="1-1"/>
+<wire x1="34.671" y1="13.6732" x2="35.519" y2="12.6026" width="0" layer="19" extent="1-1"/>
+<wire x1="35.519" y1="6.7014" x2="35.519" y2="12.6026" width="0" layer="19" extent="1-1"/>
+<wire x1="35.4758" y1="5.588" x2="35.519" y2="6.7014" width="0" layer="19" extent="1-1"/>
+<wire x1="44.196" y1="4.064" x2="40.6696" y2="11.852" width="0" layer="19" extent="1-1"/>
+<wire x1="16.002" y1="3.429" x2="35.4758" y2="5.588" width="0" layer="19" extent="1-1"/>
+<wire x1="15.113" y1="9.818" x2="16.002" y2="3.429" width="0" layer="19" extent="1-1"/>
+<wire x1="13.523" y1="9.531" x2="15.113" y2="9.818" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="U1" pad="2"/>
+<contactref element="Y1" pad="P$2"/>
+<contactref element="C8" pad="2"/>
+<wire x1="31.496" y1="13.061" x2="34.7684" y2="11.452" width="0" layer="19" extent="1-1"/>
+<wire x1="29.718" y1="13.5048" x2="31.496" y2="13.061" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="U1" pad="3"/>
+<contactref element="Y1" pad="P$1"/>
+<contactref element="C7" pad="2"/>
+<wire x1="31.496" y1="10.561" x2="34.7684" y2="11.052" width="0" layer="19" extent="1-1"/>
+<wire x1="29.718" y1="10.1172" x2="31.496" y2="10.561" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="U1" pad="1"/>
+<contactref element="C11" pad="1"/>
+<wire x1="33.401" y1="12.1492" x2="34.7684" y2="11.852" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7" class="1">
+<contactref element="U1" pad="46"/>
+<contactref element="C13" pad="1"/>
+<wire x1="36.319" y1="12.6026" x2="35.7712" y2="13.97" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SWDIO">
+<contactref element="U1" pad="26"/>
+<contactref element="TC1" pad="2"/>
+<wire x1="42.926" y1="4.064" x2="40.6696" y2="7.852" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SWDCLK">
+<contactref element="U1" pad="25"/>
+<contactref element="TC1" pad="4"/>
+<wire x1="42.926" y1="5.334" x2="40.6696" y2="7.452" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="NRST">
+<contactref element="U1" pad="24"/>
+<contactref element="TC1" pad="3"/>
+<wire x1="39.919" y1="6.7014" x2="44.196" y2="5.334" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SWO">
+<contactref element="U1" pad="21"/>
+<contactref element="TC1" pad="6"/>
+<wire x1="38.719" y1="6.7014" x2="42.926" y2="6.604" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="U1" pad="30"/>
+</signal>
+<signal name="N$8">
+<contactref element="U1" pad="35"/>
+<contactref element="Y2" pad="3"/>
+<contactref element="C17" pad="1"/>
+<wire x1="43.24" y1="14.06" x2="43.2642" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="40.6696" y1="11.452" x2="43.24" y2="14.06" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="Y2" pad="1"/>
+<contactref element="C16" pad="1"/>
+<contactref element="U1" pad="34"/>
+<wire x1="44.3658" y1="11.43" x2="44.39" y2="12.61" width="0" layer="19" extent="1-1"/>
+<wire x1="40.6696" y1="11.052" x2="44.3658" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
