@@ -343,79 +343,80 @@
 </library>
 <library name="angrypig7-IC-MCU">
 <packages>
-<package name="QFN40P600X600X90-49T450N" urn="urn:adsk.eagle:footprint:25777064/2">
-<circle x="-2.814" y="-3.504" radius="0.25" width="0" layer="21"/>
-<wire x1="-2.564" y1="-3" x2="-3" y2="-3" width="0.12" layer="21"/>
-<wire x1="-3" y1="-3" x2="-3" y2="-2.564" width="0.12" layer="21"/>
-<wire x1="-2.564" y1="3" x2="-3" y2="3" width="0.12" layer="21"/>
-<wire x1="-3" y1="3" x2="-3" y2="2.564" width="0.12" layer="21"/>
-<wire x1="2.564" y1="3" x2="3" y2="3" width="0.12" layer="21"/>
-<wire x1="3" y1="3" x2="3" y2="2.564" width="0.12" layer="21"/>
-<wire x1="2.564" y1="-3" x2="3" y2="-3" width="0.12" layer="21"/>
-<wire x1="3" y1="-3" x2="3" y2="-2.564" width="0.12" layer="21"/>
-<wire x1="3" y1="3" x2="3" y2="-3" width="0.12" layer="51"/>
+<package name="QFN40P600X600X90-49T450N" urn="urn:adsk.eagle:footprint:25777064/3">
+<wire x1="-3" y1="2.564" x2="-3" y2="2.588" width="0.2032" layer="21"/>
+<wire x1="-3" y1="2.588" x2="-2.588" y2="3" width="0.2032" layer="21"/>
+<wire x1="-2.588" y1="3" x2="-2.564" y2="3" width="0.2032" layer="21"/>
+<wire x1="3" y1="2.564" x2="3" y2="3" width="0.1524" layer="21"/>
+<wire x1="3" y1="3" x2="2.564" y2="3" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.564" x2="3" y2="-3" width="0.1524" layer="21"/>
+<wire x1="3" y1="-3" x2="2.564" y2="-3" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-2.564" x2="-3" y2="-3" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-3" x2="-2.564" y2="-3" width="0.1524" layer="21"/>
 <wire x1="3" y1="-3" x2="-3" y2="-3" width="0.12" layer="51"/>
-<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.12" layer="51"/>
-<wire x1="-3" y1="3" x2="3" y2="3" width="0.12" layer="51"/>
-<smd name="1" x="-2.2" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="2" x="-1.8" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="3" x="-1.4" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="4" x="-1" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="5" x="-0.6" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="6" x="-0.2" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="7" x="0.2" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="8" x="0.6" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="9" x="1" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="10" x="1.4" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="11" x="1.8" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="12" x="2.2" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="13" x="2.9506" y="-2.2" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="14" x="2.9506" y="-1.8" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="15" x="2.9506" y="-1.4" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="16" x="2.9506" y="-1" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="17" x="2.9506" y="-0.6" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="18" x="2.9506" y="-0.2" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="19" x="2.9506" y="0.2" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="20" x="2.9506" y="0.6" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="21" x="2.9506" y="1" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="22" x="2.9506" y="1.4" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="23" x="2.9506" y="1.8" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="24" x="2.9506" y="2.2" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="25" x="2.2" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="26" x="1.8" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="27" x="1.4" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="28" x="1" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="29" x="0.6" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="30" x="0.2" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="31" x="-0.2" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="32" x="-0.6" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="33" x="-1" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="34" x="-1.4" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="35" x="-1.8" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="36" x="-2.2" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
-<smd name="37" x="-2.9506" y="2.2" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="38" x="-2.9506" y="1.8" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="39" x="-2.9506" y="1.4" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="40" x="-2.9506" y="1" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="41" x="-2.9506" y="0.6" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="42" x="-2.9506" y="0.2" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="43" x="-2.9506" y="-0.2" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="44" x="-2.9506" y="-0.6" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="45" x="-2.9506" y="-1" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="46" x="-2.9506" y="-1.4" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="47" x="-2.9506" y="-1.8" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="48" x="-2.9506" y="-2.2" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R180"/>
-<smd name="49" x="0" y="0" dx="4.3" dy="4.3" layer="1" rot="R90" cream="no"/>
-<text x="-3.6099" y="0" size="1.143" layer="25" font="vector" ratio="15" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="3.6099" y="0" size="1.143" layer="27" font="vector" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<wire x1="-3" y1="-3" x2="-3" y2="2.588" width="0.12" layer="51"/>
+<wire x1="-3" y1="2.588" x2="-2.588" y2="3" width="0.12" layer="51"/>
+<wire x1="-2.588" y1="3" x2="3" y2="3" width="0.12" layer="51"/>
+<wire x1="3" y1="3" x2="3" y2="-3" width="0.12" layer="51"/>
+<smd name="1" x="-2.9506" y="2.2" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="2" x="-2.9506" y="1.8" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="3" x="-2.9506" y="1.4" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="4" x="-2.9506" y="1" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="5" x="-2.9506" y="0.6" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="6" x="-2.9506" y="0.2" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="7" x="-2.9506" y="-0.2" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="8" x="-2.9506" y="-0.6" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="9" x="-2.9506" y="-1" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="10" x="-2.9506" y="-1.4" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="11" x="-2.9506" y="-1.8" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="12" x="-2.9506" y="-2.2" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="13" x="-2.2" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="14" x="-1.8" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="15" x="-1.4" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="16" x="-1" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="17" x="-0.6" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="18" x="-0.2" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="19" x="0.2" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="20" x="0.6" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="21" x="1" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="22" x="1.4" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="23" x="1.8" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="24" x="2.2" y="-2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="25" x="2.9506" y="-2.2" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="26" x="2.9506" y="-1.8" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="27" x="2.9506" y="-1.4" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="28" x="2.9506" y="-1" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="29" x="2.9506" y="-0.6" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="30" x="2.9506" y="-0.2" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="31" x="2.9506" y="0.2" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="32" x="2.9506" y="0.6" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="33" x="2.9506" y="1" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="34" x="2.9506" y="1.4" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="35" x="2.9506" y="1.8" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="36" x="2.9506" y="2.2" dx="0.8107" dy="0.22" layer="1" roundness="100"/>
+<smd name="37" x="2.2" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="38" x="1.8" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="39" x="1.4" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="40" x="1" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="41" x="0.6" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="42" x="0.2" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="43" x="-0.2" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="44" x="-0.6" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="45" x="-1" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="46" x="-1.4" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="47" x="-1.8" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="48" x="-2.2" y="2.9506" dx="0.8107" dy="0.22" layer="1" roundness="100" rot="R90"/>
+<smd name="49" x="0" y="0" dx="4.3" dy="4.3" layer="1" cream="no"/>
+<text x="0" y="3.6099" size="1.143" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.6099" size="1.143" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+<rectangle x1="0.4894" y1="0.4894" x2="1.8106" y2="1.8106" layer="31"/>
 <rectangle x1="-1.8106" y1="0.4894" x2="-0.4894" y2="1.8106" layer="31" rot="R90"/>
 <rectangle x1="-1.8106" y1="-1.8106" x2="-0.4894" y2="-0.4894" layer="31" rot="R180"/>
 <rectangle x1="0.4894" y1="-1.8106" x2="1.8106" y2="-0.4894" layer="31" rot="R270"/>
-<rectangle x1="0.4894" y1="0.4894" x2="1.8106" y2="1.8106" layer="31"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="QFN40P600X600X90-49T450N" urn="urn:adsk.eagle:package:25776865/3" type="model">
+<package3d name="QFN40P600X600X90-49T450N" urn="urn:adsk.eagle:package:25776865/5" type="model">
 <packageinstances>
 <packageinstance name="QFN40P600X600X90-49T450N"/>
 </packageinstances>
@@ -539,7 +540,7 @@
 <connect gate="G$1" pin="XC2" pad="35"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25776865/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25776865/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1745,23 +1746,23 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <wire x1="0" y1="0" x2="-0.127" y2="-0.127" width="0.1524" layer="21"/>
 <wire x1="0" y1="0" x2="-0.127" y2="0.127" width="0.1524" layer="21"/>
 </package>
-<package name="SPT-23-6" urn="urn:adsk.eagle:footprint:25892186/4">
+<package name="SPT-23-6" urn="urn:adsk.eagle:footprint:25892186/5">
 <description>6-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.63 X 1.45 mm body
 &lt;p&gt;6-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.63 X 1.45 mm&lt;/p&gt;</description>
-<wire x1="0.875" y1="-1.519" x2="-0.875" y2="-1.519" width="0.12" layer="21"/>
-<wire x1="0.875" y1="1.519" x2="-0.875" y2="1.519" width="0.12" layer="21"/>
-<wire x1="0.875" y1="1.5" x2="0.875" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-0.875" y1="1.519" x2="0.875" y2="1.519" width="0.12" layer="21"/>
+<wire x1="-0.875" y1="-1.519" x2="0.875" y2="-1.519" width="0.12" layer="21"/>
 <wire x1="-0.875" y1="-1.5" x2="-0.875" y2="1.5" width="0.12" layer="51"/>
-<wire x1="1.8034" y1="-1.397" x2="0.889" y2="-1.397" width="0.1524" layer="21"/>
-<smd name="1" x="1.2533" y="-0.95" dx="1.2088" dy="0.51" layer="1" rot="R180"/>
-<smd name="2" x="1.2533" y="0" dx="1.2088" dy="0.51" layer="1" rot="R180"/>
-<smd name="3" x="1.2533" y="0.95" dx="1.2088" dy="0.51" layer="1" rot="R180"/>
-<smd name="4" x="-1.2533" y="0.95" dx="1.2088" dy="0.51" layer="1" rot="R180"/>
-<smd name="5" x="-1.2533" y="0" dx="1.2088" dy="0.51" layer="1" rot="R180"/>
-<smd name="6" x="-1.2533" y="-0.95" dx="1.2088" dy="0.51" layer="1" rot="R180"/>
-<text x="0" y="-1.832" size="1.143" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center">&gt;NAME</text>
-<text x="0" y="1.773" size="1.143" layer="27" font="vector" ratio="15" rot="R180" align="top-center">&gt;VALUE</text>
-<circle x="0.45" y="-1.164" radius="0.25" width="0" layer="21"/>
+<wire x1="0.875" y1="1.5" x2="0.875" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-1.8034" y1="1.397" x2="-0.889" y2="1.397" width="0.1524" layer="21"/>
+<smd name="1" x="-1.2533" y="0.95" dx="1.2088" dy="0.51" layer="1"/>
+<smd name="2" x="-1.2533" y="0" dx="1.2088" dy="0.51" layer="1"/>
+<smd name="3" x="-1.2533" y="-0.95" dx="1.2088" dy="0.51" layer="1"/>
+<smd name="4" x="1.2533" y="-0.95" dx="1.2088" dy="0.51" layer="1"/>
+<smd name="5" x="1.2533" y="0" dx="1.2088" dy="0.51" layer="1"/>
+<smd name="6" x="1.2533" y="0.95" dx="1.2088" dy="0.51" layer="1"/>
+<text x="0" y="1.832" size="1.143" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.773" size="1.143" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+<circle x="-0.45" y="1.164" radius="0.25" width="0" layer="21"/>
 </package>
 <package name="SOT-363(SC-70-6)">
 <description>&lt;h3&gt;SC-88/SC70-6/SOT-363 6-pin Package&lt;/h3&gt;
@@ -1834,7 +1835,7 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <packageinstance name="LED_0805"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT-23-6" urn="urn:adsk.eagle:package:25892184/7" type="model">
+<package3d name="SOT-23-6" urn="urn:adsk.eagle:package:25892184/9" type="model">
 <description>6-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.63 X 1.45 mm body
 &lt;p&gt;6-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.63 X 1.45 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -2176,7 +2177,7 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <connect gate="G$1" pin="VSS" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25892184/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25892184/9"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2201,26 +2202,26 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 </library>
 <library name="angrypig7-IC-Power">
 <packages>
-<package name="SOT-23-5" urn="urn:adsk.eagle:footprint:25814439/3">
+<package name="SOT-23-5" urn="urn:adsk.eagle:footprint:25814439/4">
 <description>5-SOT23, 0.95 mm pitch, 2.83 mm span, 2.96 X 1.60 X 1.30 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.83 mm span with body size 2.96 X 1.60 X 1.30 mm&lt;/p&gt;</description>
-<wire x1="0.85" y1="-1.5586" x2="-0.85" y2="-1.5586" width="0.12" layer="21"/>
-<wire x1="0.85" y1="1.5586" x2="-0.85" y2="1.5586" width="0.12" layer="21"/>
-<wire x1="0.85" y1="1.55" x2="0.85" y2="-1.55" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="1.5586" x2="0.85" y2="1.5586" width="0.12" layer="21"/>
+<wire x1="-0.85" y1="-1.5586" x2="0.85" y2="-1.5586" width="0.12" layer="21"/>
 <wire x1="-0.85" y1="-1.55" x2="-0.85" y2="1.55" width="0.12" layer="51"/>
-<wire x1="0.8636" y1="-1.397" x2="1.8034" y2="-1.397" width="0.1524" layer="21"/>
-<smd name="1" x="1.264" y="-0.95" dx="1.1893" dy="0.5891" layer="1" rot="R180"/>
-<smd name="2" x="1.264" y="0" dx="1.1893" dy="0.5891" layer="1" rot="R180"/>
-<smd name="3" x="1.264" y="0.95" dx="1.1893" dy="0.5891" layer="1" rot="R180"/>
-<smd name="4" x="-1.264" y="0.95" dx="1.1893" dy="0.5891" layer="1" rot="R180"/>
-<smd name="5" x="-1.264" y="-0.95" dx="1.1893" dy="0.5891" layer="1" rot="R180"/>
-<text x="0.0508" y="-1.778" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center">&gt;NAME</text>
-<text x="-0.0127" y="1.7399" size="1.016" layer="27" font="vector" ratio="15" align="bottom-center">&gt;VALUE</text>
-<circle x="0.45" y="-1.164" radius="0.25" width="0" layer="21"/>
+<wire x1="0.85" y1="1.55" x2="0.85" y2="-1.55" width="0.12" layer="51"/>
+<wire x1="-0.8636" y1="1.397" x2="-1.8034" y2="1.397" width="0.1524" layer="21"/>
+<smd name="1" x="-1.264" y="0.95" dx="1.1893" dy="0.5891" layer="1"/>
+<smd name="2" x="-1.264" y="0" dx="1.1893" dy="0.5891" layer="1"/>
+<smd name="3" x="-1.264" y="-0.95" dx="1.1893" dy="0.5891" layer="1"/>
+<smd name="4" x="1.264" y="-0.95" dx="1.1893" dy="0.5891" layer="1"/>
+<smd name="5" x="1.264" y="0.95" dx="1.1893" dy="0.5891" layer="1"/>
+<text x="-0.0508" y="1.778" size="1.016" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0.0127" y="-1.7399" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="bottom-center">&gt;VALUE</text>
+<circle x="-0.45" y="1.164" radius="0.25" width="0" layer="21"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="SOT-23-5" urn="urn:adsk.eagle:package:25814432/6" type="model">
+<package3d name="SOT-23-5" urn="urn:adsk.eagle:package:25814432/8" type="model">
 <description>5-SOT23, 0.95 mm pitch, 2.83 mm span, 2.96 X 1.60 X 1.30 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.83 mm span with body size 2.96 X 1.60 X 1.30 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -2259,7 +2260,7 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <connect gate="G$1" pin="VOUT" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25814432/6"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25814432/8"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2862,37 +2863,37 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 </library>
 <library name="angrypig7-IC">
 <packages>
-<package name="MSOP-10" urn="urn:adsk.eagle:footprint:25892165/4">
+<package name="MSOP-10" urn="urn:adsk.eagle:footprint:25892165/5">
 <description>10-SOP, 0.50 mm pitch, 4.90 mm span, 3.00 X 3.00 X 1.10 mm body
 &lt;p&gt;10-pin SOP package with 0.50 mm pitch, 4.90 mm span with body size 3.00 X 3.00 X 1.10 mm&lt;/p&gt;</description>
-<wire x1="1.3899" y1="1.5" x2="1.5" y2="1.5" width="0.12" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.12" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="1.3899" y2="-1.5" width="0.12" layer="21"/>
-<wire x1="-1.3899" y1="1.5" x2="-1.5" y2="1.5" width="0.12" layer="21"/>
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.12" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.3899" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="-1.5" y1="1.3899" x2="-1.5" y2="1.5" width="0.12" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.12" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.3899" width="0.12" layer="21"/>
+<wire x1="-1.5" y1="-1.3899" x2="-1.5" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.3899" width="0.12" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.12" layer="51"/>
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.12" layer="51"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.12" layer="51"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.12" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.12" layer="51"/>
-<wire x1="1.3462" y1="2.794" x2="1.3462" y2="1.524" width="0.1524" layer="21"/>
-<smd name="1" x="1" y="2.15" dx="1.4118" dy="0.2718" layer="1" rot="R270"/>
-<smd name="2" x="0.5" y="2.15" dx="1.4118" dy="0.2718" layer="1" rot="R270"/>
-<smd name="3" x="0" y="2.15" dx="1.4118" dy="0.2718" layer="1" rot="R270"/>
-<smd name="4" x="-0.5" y="2.15" dx="1.4118" dy="0.2718" layer="1" rot="R270"/>
-<smd name="5" x="-1" y="2.15" dx="1.4118" dy="0.2718" layer="1" rot="R270"/>
-<smd name="6" x="-1" y="-2.15" dx="1.4118" dy="0.2718" layer="1" rot="R270"/>
-<smd name="7" x="-0.5" y="-2.15" dx="1.4118" dy="0.2718" layer="1" rot="R270"/>
-<smd name="8" x="0" y="-2.15" dx="1.4118" dy="0.2718" layer="1" rot="R270"/>
-<smd name="9" x="0.5" y="-2.15" dx="1.4118" dy="0.2718" layer="1" rot="R270"/>
-<smd name="10" x="1" y="-2.15" dx="1.4118" dy="0.2718" layer="1" rot="R270"/>
-<text x="1.8899" y="0" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center">&gt;NAME</text>
-<text x="-1.881" y="0" size="1.143" layer="27" font="vector" ratio="15" rot="R270" align="top-center">&gt;VALUE</text>
-<circle x="1.085" y="1.122" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.794" y1="1.3462" x2="-1.524" y2="1.3462" width="0.1524" layer="21"/>
+<smd name="1" x="-2.15" y="1" dx="1.4118" dy="0.2718" layer="1"/>
+<smd name="2" x="-2.15" y="0.5" dx="1.4118" dy="0.2718" layer="1"/>
+<smd name="3" x="-2.15" y="0" dx="1.4118" dy="0.2718" layer="1"/>
+<smd name="4" x="-2.15" y="-0.5" dx="1.4118" dy="0.2718" layer="1"/>
+<smd name="5" x="-2.15" y="-1" dx="1.4118" dy="0.2718" layer="1"/>
+<smd name="6" x="2.15" y="-1" dx="1.4118" dy="0.2718" layer="1"/>
+<smd name="7" x="2.15" y="-0.5" dx="1.4118" dy="0.2718" layer="1"/>
+<smd name="8" x="2.15" y="0" dx="1.4118" dy="0.2718" layer="1"/>
+<smd name="9" x="2.15" y="0.5" dx="1.4118" dy="0.2718" layer="1"/>
+<smd name="10" x="2.15" y="1" dx="1.4118" dy="0.2718" layer="1"/>
+<text x="0" y="1.8899" size="1.143" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.881" size="1.143" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+<circle x="-1.122" y="1.085" radius="0.25" width="0" layer="21"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="MSOP-10" urn="urn:adsk.eagle:package:25892162/7" type="model">
+<package3d name="MSOP-10" urn="urn:adsk.eagle:package:25892162/9" type="model">
 <description>10-SOP, 0.50 mm pitch, 4.90 mm span, 3.00 X 3.00 X 1.10 mm body
 &lt;p&gt;10-pin SOP package with 0.50 mm pitch, 4.90 mm span with body size 3.00 X 3.00 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -2940,7 +2941,7 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <connect gate="G$1" pin="VCC" pad="7"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25892162/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25892162/9"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3512,9 +3513,46 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 </library>
 <library name="angrypig7-Antennas">
 <packages>
+<package name="TI-AN043_LEFT">
+<description>2.45GHz antenna from TI Application Note AN043</description>
+<pad name="GND" x="0.45" y="0.25" drill="0.35" stop="no"/>
+<smd name="RF" x="2.55" y="0.51" dx="1.016" dy="0.508" layer="1" rot="R90" stop="no" cream="no"/>
+<rectangle x1="-0.5" y1="0.5" x2="14.7" y2="5.7" layer="39"/>
+<rectangle x1="-0.5" y1="0.5" x2="14.7" y2="5.7" layer="40"/>
+<polygon width="0" layer="1">
+<vertex x="0" y="0"/>
+<vertex x="0" y="5.4"/>
+<vertex x="5" y="5.4"/>
+<vertex x="5" y="2.76"/>
+<vertex x="7" y="2.76"/>
+<vertex x="7" y="5.4"/>
+<vertex x="9.7" y="5.4"/>
+<vertex x="9.7" y="2.76"/>
+<vertex x="11.7" y="2.76"/>
+<vertex x="11.7" y="5.4"/>
+<vertex x="14.4" y="5.4"/>
+<vertex x="14.4" y="0.96"/>
+<vertex x="13.9" y="0.96"/>
+<vertex x="13.9" y="4.9"/>
+<vertex x="12.2" y="4.9"/>
+<vertex x="12.2" y="2.26"/>
+<vertex x="9.2" y="2.26"/>
+<vertex x="9.2" y="4.9"/>
+<vertex x="7.5" y="4.9"/>
+<vertex x="7.5" y="2.26"/>
+<vertex x="4.5" y="2.26"/>
+<vertex x="4.5" y="4.9"/>
+<vertex x="2.8" y="4.9"/>
+<vertex x="2.8" y="0"/>
+<vertex x="2.3" y="0"/>
+<vertex x="2.3" y="4.9"/>
+<vertex x="0.9" y="4.9"/>
+<vertex x="0.9" y="0"/>
+</polygon>
+</package>
 <package name="TI-AN043_RIGHT">
 <description>2.45GHz antenna from TI Application Note AN043</description>
-<smd name="RF" x="-2.55" y="0.5" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="RF" x="-2.55" y="0.5" dx="1.016" dy="0.508" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="GND" x="-0.45" y="0.25" dx="0.8128" dy="0.4064" layer="1"/>
 <rectangle x1="-14.7" y1="0.5" x2="0.5" y2="5.7" layer="39"/>
 <rectangle x1="-14.7" y1="0.5" x2="0.5" y2="5.7" layer="40"/>
@@ -3548,44 +3586,7 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <vertex x="-0.9" y="4.9"/>
 <vertex x="-0.9" y="0"/>
 </polygon>
-<pad name="GND1" x="-0.45" y="0.25" drill="0.35"/>
-</package>
-<package name="TI-AN043_LEFT">
-<description>2.45GHz antenna from TI Application Note AN043</description>
-<pad name="GND" x="0.45" y="0.25" drill="0.35"/>
-<smd name="RF" x="2.55" y="0.51" dx="1.016" dy="0.508" layer="1" rot="R90"/>
-<rectangle x1="-0.5" y1="0.5" x2="14.7" y2="5.7" layer="39"/>
-<rectangle x1="-0.5" y1="0.5" x2="14.7" y2="5.7" layer="40"/>
-<polygon width="0" layer="1">
-<vertex x="0" y="0"/>
-<vertex x="0" y="5.4"/>
-<vertex x="5" y="5.4"/>
-<vertex x="5" y="2.76"/>
-<vertex x="7" y="2.76"/>
-<vertex x="7" y="5.4"/>
-<vertex x="9.7" y="5.4"/>
-<vertex x="9.7" y="2.76"/>
-<vertex x="11.7" y="2.76"/>
-<vertex x="11.7" y="5.4"/>
-<vertex x="14.4" y="5.4"/>
-<vertex x="14.4" y="0.96"/>
-<vertex x="13.9" y="0.96"/>
-<vertex x="13.9" y="4.9"/>
-<vertex x="12.2" y="4.9"/>
-<vertex x="12.2" y="2.26"/>
-<vertex x="9.2" y="2.26"/>
-<vertex x="9.2" y="4.9"/>
-<vertex x="7.5" y="4.9"/>
-<vertex x="7.5" y="2.26"/>
-<vertex x="4.5" y="2.26"/>
-<vertex x="4.5" y="4.9"/>
-<vertex x="2.8" y="4.9"/>
-<vertex x="2.8" y="0"/>
-<vertex x="2.3" y="0"/>
-<vertex x="2.3" y="4.9"/>
-<vertex x="0.9" y="4.9"/>
-<vertex x="0.9" y="0"/>
-</polygon>
+<pad name="GND1" x="-0.45" y="0.25" drill="0.35" stop="no"/>
 </package>
 </packages>
 <symbols>
@@ -3652,7 +3653,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <part name="SUPPLY4" library="angrypig7-Symbols" deviceset="VIN" device=""/>
 <part name="GND2" library="angrypig7-Symbols" deviceset="GND" device=""/>
 <part name="GND3" library="angrypig7-Symbols" deviceset="GND" device=""/>
-<part name="U2" library="angrypig7-IC-MCU" deviceset="NRF52832" device="" package3d_urn="urn:adsk.eagle:package:25776865/3">
+<part name="U2" library="angrypig7-IC-MCU" deviceset="NRF52832" device="" package3d_urn="urn:adsk.eagle:package:25776865/5">
 <attribute name="JLC_ROTATION" value="180"/>
 <attribute name="LCSC" value="C77540"/>
 </part>
@@ -3670,7 +3671,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <part name="GND8" library="angrypig7-Symbols" deviceset="GND" device=""/>
 <part name="GND9" library="angrypig7-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="angrypig7-Symbols" deviceset="3V3" device=""/>
-<part name="VR1" library="angrypig7-IC-Power" deviceset="AP2210K" device="" package3d_urn="urn:adsk.eagle:package:25814432/6" value="AP2210K-3.3TRG">
+<part name="VR1" library="angrypig7-IC-Power" deviceset="AP2210K" device="" package3d_urn="urn:adsk.eagle:package:25814432/8" value="AP2210K-3.3TRG">
 <attribute name="LCSC" value="C176959"/>
 </part>
 <part name="C1" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
@@ -3864,7 +3865,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 </spice>
 <attribute name="LCSC" value="C25744"/>
 </part>
-<part name="U1" library="angrypig7-IC" deviceset="CH340E" device="" package3d_urn="urn:adsk.eagle:package:25892162/7">
+<part name="U1" library="angrypig7-IC" deviceset="CH340E" device="" package3d_urn="urn:adsk.eagle:package:25892162/9">
 <attribute name="LCSC" value="C99652"/>
 </part>
 <part name="GND23" library="angrypig7-Symbols" deviceset="GND" device=""/>
@@ -3889,9 +3890,11 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 </spice>
 <attribute name="LCSC" value="C25744"/>
 </part>
-<part name="D3" library="angrypig7-Diodes" deviceset="LED" device="_0603" package3d_urn="urn:adsk.eagle:package:22866870/2" value="PWR"/>
+<part name="D3" library="angrypig7-Diodes" deviceset="LED" device="_0603" package3d_urn="urn:adsk.eagle:package:22866870/2" value="PWR">
+<attribute name="LCSC" value="C2286"/>
+</part>
 <part name="GND26" library="angrypig7-Symbols" deviceset="GND" device=""/>
-<part name="D2" library="angrypig7-Diodes" deviceset="TVS-ARRAY" device="_SOT-23-6" package3d_urn="urn:adsk.eagle:package:25892184/7" value="TVS">
+<part name="D2" library="angrypig7-Diodes" deviceset="TVS-ARRAY" device="_SOT-23-6" package3d_urn="urn:adsk.eagle:package:25892184/9" value="TVS">
 <attribute name="LCSC" value="C85364"/>
 </part>
 <part name="GND28" library="angrypig7-Symbols" deviceset="GND" device=""/>
@@ -3904,7 +3907,9 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 </spice>
 <attribute name="LCSC" value="C25744"/>
 </part>
-<part name="D4" library="angrypig7-Diodes" deviceset="LED" device="_0603" package3d_urn="urn:adsk.eagle:package:22866870/2" value="0603"/>
+<part name="D4" library="angrypig7-Diodes" deviceset="LED" device="_0603" package3d_urn="urn:adsk.eagle:package:22866870/2" value="0603">
+<attribute name="LCSC" value="C72038"/>
+</part>
 <part name="R4" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k">
 <spice>
 <pinmapping spiceprefix="R">
@@ -3914,7 +3919,9 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 </spice>
 <attribute name="LCSC" value="C25744"/>
 </part>
-<part name="D5" library="angrypig7-Diodes" deviceset="LED" device="_0603" package3d_urn="urn:adsk.eagle:package:22866870/2" value="0603"/>
+<part name="D5" library="angrypig7-Diodes" deviceset="LED" device="_0603" package3d_urn="urn:adsk.eagle:package:22866870/2" value="0603">
+<attribute name="LCSC" value="C72038"/>
+</part>
 <part name="FRAME2" library="angrypig7-Frames" deviceset="FRAME-A3L" device=""/>
 <part name="FRAME1" library="angrypig7-Frames" deviceset="FRAME-A3L" device=""/>
 <part name="JP1" library="angrypig7-Connectors-PinHeads" deviceset="PINHD-1X4" device="/90" package3d_urn="urn:adsk.eagle:package:22404/2" value="V  G Tx Rx"/>
@@ -3950,7 +3957,9 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 </spice>
 <attribute name="LCSC" value="C25744"/>
 </part>
-<part name="D6" library="angrypig7-Diodes" deviceset="LED" device="_0603" package3d_urn="urn:adsk.eagle:package:22866870/2" value="0603"/>
+<part name="D6" library="angrypig7-Diodes" deviceset="LED" device="_0603" package3d_urn="urn:adsk.eagle:package:22866870/2" value="0603">
+<attribute name="LCSC" value="C72038"/>
+</part>
 <part name="GND32" library="angrypig7-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="angrypig7-Symbols" deviceset="3V3" device=""/>
 </parts>
@@ -4073,6 +4082,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <instance part="D3" gate="G$1" x="270.51" y="187.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="274.066" y="184.658" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="276.225" y="184.658" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="270.51" y="187.96" size="1.27" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND26" gate="1" x="270.51" y="180.34" smashed="yes">
 <attribute name="VALUE" x="270.51" y="177.546" size="1.778" layer="96" align="top-center"/>
@@ -4555,6 +4565,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <instance part="D4" gate="G$1" x="363.22" y="172.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="366.522" y="176.276" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="366.522" y="178.435" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="363.22" y="172.72" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="350.52" y="160.02" smashed="yes">
 <attribute name="NAME" x="346.71" y="161.5186" size="1.778" layer="95"/>
@@ -4564,6 +4575,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <instance part="D5" gate="G$1" x="363.22" y="160.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="366.522" y="163.576" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="366.522" y="165.735" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="363.22" y="160.02" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="TC1" gate="A" x="351.79" y="86.36" smashed="yes">
 <attribute name="VALUE" x="342.9" y="80.645" size="1.778" layer="96" align="top-left"/>
@@ -4610,6 +4622,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <instance part="D6" gate="G$1" x="363.22" y="147.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="366.522" y="150.876" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="366.522" y="153.035" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="363.22" y="147.32" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND32" gate="1" x="372.11" y="143.51" smashed="yes">
 <attribute name="VALUE" x="372.11" y="140.716" size="1.778" layer="96" align="top-center"/>
