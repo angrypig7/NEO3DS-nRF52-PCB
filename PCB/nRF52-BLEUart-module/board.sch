@@ -2270,58 +2270,6 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 </deviceset>
 </devicesets>
 </library>
-<library name="angrypig7-Tests">
-<packages>
-<package name="PAD-3X-RECT-SILK">
-<smd name="P$1" x="-2.5" y="0" dx="2" dy="2.5" layer="1" roundness="30" rot="R180"/>
-<smd name="P$2" x="0" y="0" dx="2" dy="2.5" layer="1" roundness="30" rot="R180"/>
-<smd name="P$3" x="2.5" y="0" dx="2" dy="2.5" layer="1" roundness="30" rot="R180"/>
-<wire x1="-3.3" y1="1.5" x2="-3.8" y2="1" width="0.1524" layer="21" curve="90"/>
-<wire x1="-3.8" y1="1" x2="-3.8" y2="-1" width="0.1524" layer="21"/>
-<wire x1="-3.8" y1="-1" x2="-3.3" y2="-1.5" width="0.1524" layer="21" curve="90"/>
-<wire x1="-3.3" y1="-1.5" x2="3.3" y2="-1.5" width="0.1524" layer="21"/>
-<wire x1="3.3" y1="-1.5" x2="3.8" y2="-1" width="0.1524" layer="21" curve="90"/>
-<wire x1="3.8" y1="-1" x2="3.8" y2="1" width="0.1524" layer="21"/>
-<wire x1="3.8" y1="1" x2="3.3" y2="1.5" width="0.1524" layer="21" curve="90"/>
-<wire x1="3.3" y1="1.5" x2="-3.3" y2="1.5" width="0.1524" layer="21"/>
-<text x="0" y="2.5" size="1.143" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
-<wire x1="-4.1" y1="1" x2="-4.1" y2="-1" width="0.1524" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TEST-POINT-3">
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-3.302" y1="0.762" x2="-1.778" y2="0.762" width="0.1524" layer="94" curve="180"/>
-<text x="0" y="1.016" size="1.778" layer="95" font="vector" align="bottom-center">&gt;Name</text>
-<pin name="1" x="-2.54" y="-2.54" visible="off" length="point" rot="R270"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="0.762" x2="0.762" y2="0.762" width="0.1524" layer="94" curve="180"/>
-<pin name="2" x="0" y="-2.54" visible="off" length="point" rot="R270"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0.762" x2="3.302" y2="0.762" width="0.1524" layer="94" curve="180"/>
-<pin name="3" x="2.54" y="-2.54" visible="off" length="point" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TEST-POINT-3" prefix="TP">
-<gates>
-<gate name="G$1" symbol="TEST-POINT-3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PAD-3X-RECT-SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="3" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="angrypig7-Clocks">
 <packages>
 <package name="CRYSTAL-SMD-3.2X1.5MM" urn="urn:adsk.eagle:footprint:6644328/1" locally_modified="yes">
@@ -3515,7 +3463,7 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <packages>
 <package name="TI-AN043_LEFT">
 <description>2.45GHz antenna from TI Application Note AN043</description>
-<pad name="GND" x="0.45" y="0.25" drill="0.35" stop="no"/>
+<pad name="GND" x="0.45" y="0.25" drill="0.35" stop="no" thermals="no"/>
 <smd name="RF" x="2.55" y="0.51" dx="1.016" dy="0.508" layer="1" rot="R90" stop="no" cream="no"/>
 <rectangle x1="-0.5" y1="0.5" x2="14.7" y2="5.7" layer="39"/>
 <rectangle x1="-0.5" y1="0.5" x2="14.7" y2="5.7" layer="40"/>
@@ -3701,10 +3649,6 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 </spice>
 <attribute name="LCSC" value="C23630"/>
 </part>
-<part name="TP1" library="angrypig7-Tests" deviceset="TEST-POINT-3" device=""/>
-<part name="SUPPLY7" library="angrypig7-Symbols" deviceset="3V3" device=""/>
-<part name="GND10" library="angrypig7-Symbols" deviceset="GND" device=""/>
-<part name="SUPPLY8" library="angrypig7-Symbols" deviceset="5V" device=""/>
 <part name="Y2" library="angrypig7-Clocks" deviceset="CRYSTAL-32.768KHZ" device="_3215" package3d_urn="urn:adsk.eagle:package:6644366/3" value="32.768kHz">
 <attribute name="LCSC" value="C32346"/>
 </part>
@@ -4040,18 +3984,6 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <attribute name="VALUE" x="256.794" y="197.231" size="1.778" layer="96"/>
 <attribute name="LCSC" x="255.27" y="200.66" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="TP1" gate="G$1" x="328.93" y="204.47" smashed="yes">
-<attribute name="NAME" x="328.93" y="205.486" size="1.778" layer="95" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY7" gate="G$1" x="331.47" y="194.31" smashed="yes">
-<attribute name="VALUE" x="331.47" y="197.104" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="GND10" gate="1" x="323.85" y="194.31" smashed="yes">
-<attribute name="VALUE" x="323.85" y="191.516" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="SUPPLY8" gate="G$1" x="339.09" y="194.31" smashed="yes">
-<attribute name="VALUE" x="339.09" y="197.104" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="U1" gate="G$1" x="166.37" y="124.46" smashed="yes">
 <attribute name="NAME" x="157.9372" y="134.5692" size="1.778" layer="95"/>
 <attribute name="VALUE" x="157.9372" y="132.5372" size="1.778" layer="95"/>
@@ -4220,13 +4152,6 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="323.85" y1="194.31" x2="323.85" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="323.85" y1="198.12" x2="326.39" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="326.39" y1="198.12" x2="326.39" y2="201.93" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND23" gate="1" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="147.32" y1="119.38" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
@@ -4289,15 +4214,6 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="TP1" gate="G$1" pin="3"/>
-<wire x1="331.47" y1="201.93" x2="331.47" y2="199.39" width="0.1524" layer="91"/>
-<wire x1="331.47" y1="199.39" x2="335.28" y2="199.39" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="199.39" x2="335.28" y2="191.77" width="0.1524" layer="91"/>
-<pinref part="SUPPLY8" gate="G$1" pin="5V"/>
-<wire x1="335.28" y1="191.77" x2="339.09" y2="191.77" width="0.1524" layer="91"/>
-<wire x1="339.09" y1="191.77" x2="339.09" y2="194.31" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY20" gate="G$1" pin="5V"/>
 <wire x1="96.52" y1="127" x2="96.52" y2="135.89" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="3"/>
@@ -4324,13 +4240,6 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="270.51" y1="204.47" x2="270.51" y2="207.01" width="0.1524" layer="91"/>
 <wire x1="270.51" y1="207.01" x2="255.27" y2="207.01" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY7" gate="G$1" pin="3V3"/>
-<wire x1="331.47" y1="194.31" x2="331.47" y2="191.77" width="0.1524" layer="91"/>
-<pinref part="TP1" gate="G$1" pin="2"/>
-<wire x1="331.47" y1="191.77" x2="328.93" y2="191.77" width="0.1524" layer="91"/>
-<wire x1="328.93" y1="191.77" x2="328.93" y2="201.93" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY15" gate="G$1" pin="3V3"/>
