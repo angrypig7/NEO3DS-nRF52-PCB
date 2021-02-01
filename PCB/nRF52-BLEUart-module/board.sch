@@ -696,10 +696,10 @@ Shield pins may be grounded.
 <wire x1="-1.1" y1="-6.2" x2="1.1" y2="-6.2" width="0" layer="46"/>
 <wire x1="1.1" y1="-6.2" x2="1.1" y2="-5.4" width="0" layer="46"/>
 <wire x1="1.1" y1="-5.4" x2="-1.1" y2="-5.4" width="0" layer="46"/>
-<smd name="SHIELD@0" x="0" y="5.9" dx="4" dy="1.8" layer="1" roundness="40"/>
-<smd name="SHIELD@1" x="0" y="-5.9" dx="4" dy="1.8" layer="1" roundness="40"/>
-<smd name="SHIELD@2" x="0" y="5.9" dx="4" dy="1.8" layer="16" roundness="40"/>
-<smd name="SHIELD@3" x="0" y="-5.9" dx="4" dy="1.8" layer="16" roundness="40"/>
+<smd name="SHIELD@0" x="0" y="6.1" dx="4" dy="1.6" layer="1" roundness="40"/>
+<smd name="SHIELD@1" x="-0.1" y="-6" dx="4" dy="1.4" layer="1" roundness="40"/>
+<smd name="SHIELD@2" x="0" y="6.1" dx="4" dy="1.6" layer="16" roundness="40"/>
+<smd name="SHIELD@3" x="-0.1" y="-6" dx="4" dy="1.4" layer="16" roundness="40"/>
 </package>
 <package name="USB-A-H">
 <wire x1="-17.8" y1="6" x2="-17.8" y2="-6" width="0.2032" layer="51"/>
@@ -3165,6 +3165,44 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <pad name="4" x="2.54" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <pad name="5" x="5.08" y="0" drill="1.016" shape="octagon" rot="R90"/>
 </package>
+<package name="1X04-NOSILK">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="51"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" diameter="1.3716" shape="octagon" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" diameter="1.3716" shape="octagon" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" diameter="1.3716" shape="octagon" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" diameter="1.3716" shape="octagon" rot="R90"/>
+<text x="0" y="1.524" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="top-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector" ratio="15" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X04" urn="urn:adsk.eagle:package:22407/2" type="model">
@@ -3256,6 +3294,17 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22404/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NOSILK" package="1X04-NOSILK">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -3602,7 +3651,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <part name="GND2" library="angrypig7-Symbols" deviceset="GND" device=""/>
 <part name="GND3" library="angrypig7-Symbols" deviceset="GND" device=""/>
 <part name="U2" library="angrypig7-IC-MCU" deviceset="NRF52832" device="" package3d_urn="urn:adsk.eagle:package:25776865/5">
-<attribute name="JLC_ROTATION" value="180"/>
+<attribute name="JLC_ROTATION" value="270"/>
 <attribute name="LCSC" value="C77540"/>
 </part>
 <part name="J1" library="angrypig7-Connectors-USB" deviceset="USB-A" device="_PTH_MALE-U-G-O4DD-W-1" override_package3d_urn="urn:adsk.eagle:package:25895599/4" override_package_urn="urn:adsk.eagle:footprint:25895600/1" override_locally_modified="yes" value="USB-A_PTH_MALE">
@@ -3759,7 +3808,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <attribute name="LCSC" value="C1546"/>
 </part>
 <part name="GND19" library="angrypig7-Symbols" deviceset="GND" device=""/>
-<part name="C15" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2">
+<part name="C15" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="DNP">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -3777,7 +3826,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 </spice>
 <attribute name="LCSC" value="C17168"/>
 </part>
-<part name="C16" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2">
+<part name="C16" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="DNP">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -3825,17 +3874,17 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 </part>
 <part name="SUPPLY15" library="angrypig7-Symbols" deviceset="3V3" device=""/>
 <part name="GND25" library="angrypig7-Symbols" deviceset="GND" device=""/>
-<part name="R1" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k">
+<part name="R1" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="15k">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="LCSC" value="C25744"/>
+<attribute name="LCSC" value="C25756"/>
 </part>
 <part name="D3" library="angrypig7-Diodes" deviceset="LED" device="_0603" package3d_urn="urn:adsk.eagle:package:22866870/2" value="PWR">
-<attribute name="LCSC" value="C2286"/>
+<attribute name="LCSC" value="C72038"/>
 </part>
 <part name="GND26" library="angrypig7-Symbols" deviceset="GND" device=""/>
 <part name="D2" library="angrypig7-Diodes" deviceset="TVS-ARRAY" device="_SOT-23-6" package3d_urn="urn:adsk.eagle:package:25892184/9" value="TVS">
@@ -3852,7 +3901,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <attribute name="LCSC" value="C25744"/>
 </part>
 <part name="D4" library="angrypig7-Diodes" deviceset="LED" device="_0603" package3d_urn="urn:adsk.eagle:package:22866870/2" value="0603">
-<attribute name="LCSC" value="C72038"/>
+<attribute name="LCSC" value="C2286"/>
 </part>
 <part name="R4" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k">
 <spice>
@@ -3864,12 +3913,12 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <attribute name="LCSC" value="C25744"/>
 </part>
 <part name="D5" library="angrypig7-Diodes" deviceset="LED" device="_0603" package3d_urn="urn:adsk.eagle:package:22866870/2" value="0603">
-<attribute name="LCSC" value="C72038"/>
+<attribute name="LCSC" value="C2286"/>
 </part>
 <part name="FRAME2" library="angrypig7-Frames" deviceset="FRAME-A3L" device=""/>
 <part name="FRAME1" library="angrypig7-Frames" deviceset="FRAME-A3L" device=""/>
-<part name="JP1" library="angrypig7-Connectors-PinHeads" deviceset="PINHD-1X4" device="/90" package3d_urn="urn:adsk.eagle:package:22404/2" value="V  G Tx Rx"/>
-<part name="JP2" library="angrypig7-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39287/1" value="3V3 5V "/>
+<part name="JP1" library="angrypig7-Connectors-PinHeads" deviceset="PINHD-1X4" device="NOSILK" value="V  G Tx Rx"/>
+<part name="JP2" library="angrypig7-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39287/1" value=" 5V 3V3"/>
 <part name="SUPPLY20" library="angrypig7-Symbols" deviceset="5V" device=""/>
 <part name="GND7" library="angrypig7-Symbols" deviceset="GND" device=""/>
 <part name="C18" library="angrypig7-RCL" deviceset="C-NON-POL" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF">
@@ -3902,7 +3951,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <attribute name="LCSC" value="C25744"/>
 </part>
 <part name="D6" library="angrypig7-Diodes" deviceset="LED" device="_0603" package3d_urn="urn:adsk.eagle:package:22866870/2" value="0603">
-<attribute name="LCSC" value="C72038"/>
+<attribute name="LCSC" value="C2286"/>
 </part>
 <part name="GND32" library="angrypig7-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="angrypig7-Symbols" deviceset="3V3" device=""/>
