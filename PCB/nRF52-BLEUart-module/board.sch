@@ -3585,6 +3585,50 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 </polygon>
 <pad name="GND1" x="-0.45" y="0.25" drill="0.35" stop="no"/>
 </package>
+<package name="TI-AN043_LEFT_SHORTER">
+<description>2.45GHz antenna from TI Application Note AN043</description>
+<pad name="GND" x="0.45" y="0.25" drill="0.35" stop="no" thermals="no"/>
+<smd name="RF" x="2.55" y="0.51" dx="1.016" dy="0.508" layer="1" rot="R90" stop="no" cream="no"/>
+<rectangle x1="-0.5" y1="0.5" x2="14.7" y2="5.7" layer="39"/>
+<rectangle x1="-0.5" y1="0.5" x2="14.7" y2="5.7" layer="40"/>
+<polygon width="0" layer="1">
+<vertex x="0" y="0"/>
+<vertex x="0" y="5.4"/>
+<vertex x="5" y="5.4"/>
+<vertex x="5" y="2.76"/>
+<vertex x="7" y="2.76"/>
+<vertex x="7" y="5.4"/>
+<vertex x="9.7" y="5.4"/>
+<vertex x="9.7" y="2.76"/>
+<vertex x="11.7" y="2.76"/>
+<vertex x="11.7" y="5.4"/>
+<vertex x="14.4" y="5.4"/>
+<vertex x="14.4" y="2.46"/>
+<vertex x="13.9" y="2.46"/>
+<vertex x="13.9" y="4.9"/>
+<vertex x="12.2" y="4.9"/>
+<vertex x="12.2" y="2.26"/>
+<vertex x="9.2" y="2.26"/>
+<vertex x="9.2" y="4.9"/>
+<vertex x="7.5" y="4.9"/>
+<vertex x="7.5" y="2.26"/>
+<vertex x="4.5" y="2.26"/>
+<vertex x="4.5" y="4.9"/>
+<vertex x="2.8" y="4.9"/>
+<vertex x="2.8" y="0"/>
+<vertex x="2.3" y="0"/>
+<vertex x="2.3" y="4.9"/>
+<vertex x="0.9" y="4.9"/>
+<vertex x="0.9" y="0"/>
+</polygon>
+<wire x1="13.9" y1="2.46" x2="14.4" y2="2.46" width="0.1524" layer="21"/>
+<wire x1="13.9" y1="1.96" x2="14.4" y2="1.96" width="0.1524" layer="21"/>
+<wire x1="13.9" y1="2.96" x2="14.4" y2="2.96" width="0.1524" layer="21"/>
+<wire x1="13.9" y1="1.46" x2="14.4" y2="1.46" width="0.1524" layer="21"/>
+<wire x1="13.9" y1="3.46" x2="14.4" y2="3.46" width="0.1524" layer="21"/>
+<wire x1="13.9" y1="3.96" x2="14.4" y2="3.96" width="0.1524" layer="21"/>
+<wire x1="13.9" y1="4.46" x2="14.4" y2="4.46" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RF">
@@ -3623,6 +3667,15 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="_L_SHORT" package="TI-AN043_LEFT_SHORTER">
+<connects>
+<connect gate="G$1" pin="FEED" pad="RF"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -3631,7 +3684,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <attributes>
 <attribute name="CDESIGNER" value="Kihun Song"/>
 <attribute name="CNAME" value="nRF52-BLEUart-module"/>
-<attribute name="CREVISION" value="V1.0.0"/>
+<attribute name="CREVISION" value="V1.1.0"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -3874,14 +3927,14 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 </part>
 <part name="SUPPLY15" library="angrypig7-Symbols" deviceset="3V3" device=""/>
 <part name="GND25" library="angrypig7-Symbols" deviceset="GND" device=""/>
-<part name="R1" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="15k">
+<part name="R1" library="angrypig7-RCL" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="7.5k">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="LCSC" value="C25756"/>
+<attribute name="LCSC" value="C25918"/>
 </part>
 <part name="D3" library="angrypig7-Diodes" deviceset="LED" device="_0603" package3d_urn="urn:adsk.eagle:package:22866870/2" value="PWR">
 <attribute name="LCSC" value="C72038"/>
@@ -3917,7 +3970,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 </part>
 <part name="FRAME2" library="angrypig7-Frames" deviceset="FRAME-A3L" device=""/>
 <part name="FRAME1" library="angrypig7-Frames" deviceset="FRAME-A3L" device=""/>
-<part name="JP1" library="angrypig7-Connectors-PinHeads" deviceset="PINHD-1X4" device="NOSILK" value="V  G Tx Rx"/>
+<part name="JP1" library="angrypig7-Connectors-PinHeads" deviceset="PINHD-1X4" device="NOSILK" value="Rx Tx G  V"/>
 <part name="JP2" library="angrypig7-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39287/1" value=" 5V 3V3"/>
 <part name="SUPPLY20" library="angrypig7-Symbols" deviceset="5V" device=""/>
 <part name="GND7" library="angrypig7-Symbols" deviceset="GND" device=""/>
@@ -3933,7 +3986,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <part name="JP3" library="angrypig7-Connectors-PinHeads" deviceset="PINHD-1X5" device="-NOSILK"/>
 <part name="GND29" library="angrypig7-Symbols" deviceset="GND" device=""/>
 <part name="JP4" library="angrypig7-Connectors-PinHeads" deviceset="PINHD-1X5" device="-NOSILK"/>
-<part name="U$1" library="angrypig7-Antennas" deviceset="INVERTED_F_2.4GHZ_TI-AN043" device="_L" value="ANT"/>
+<part name="U$1" library="angrypig7-Antennas" deviceset="INVERTED_F_2.4GHZ_TI-AN043" device="_L_SHORT" value="ANT"/>
 <part name="GND30" library="angrypig7-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="angrypig7-Symbols" deviceset="VCCIO" device=""/>
 <part name="SUPPLY21" library="angrypig7-Symbols" deviceset="VCCIO" device=""/>
