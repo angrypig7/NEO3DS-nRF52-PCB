@@ -253,13 +253,6 @@
 <pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
-<symbol name="VIN">
-<description>&lt;h3&gt;Input Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="VIN" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-</symbol>
 <symbol name="VCCIO">
 <description>&lt;h3&gt;VCC I/O Voltage Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -302,20 +295,6 @@
 &lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VIN" prefix="SUPPLY">
-<description>&lt;h3&gt;Input Voltage Supply&lt;/h3&gt;
-&lt;p&gt;Generic voltage input supply symbol.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="VIN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -3697,12 +3676,6 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 </class>
 </classes>
 <parts>
-<part name="SUPPLY2" library="angrypig7-Symbols" deviceset="3V3" device=""/>
-<part name="GND1" library="angrypig7-Symbols" deviceset="GND" device=""/>
-<part name="SUPPLY3" library="angrypig7-Symbols" deviceset="5V" device=""/>
-<part name="SUPPLY4" library="angrypig7-Symbols" deviceset="VIN" device=""/>
-<part name="GND2" library="angrypig7-Symbols" deviceset="GND" device=""/>
-<part name="GND3" library="angrypig7-Symbols" deviceset="GND" device=""/>
 <part name="U2" library="angrypig7-IC-MCU" deviceset="NRF52832" device="" package3d_urn="urn:adsk.eagle:package:25776865/5">
 <attribute name="JLC_ROTATION" value="270"/>
 <attribute name="LCSC" value="C77540"/>
@@ -4014,31 +3987,13 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <plain>
 </plain>
 <instances>
-<instance part="SUPPLY2" gate="G$1" x="27.94" y="21.59" smashed="yes">
-<attribute name="VALUE" x="27.94" y="24.384" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="GND1" gate="1" x="27.94" y="15.24" smashed="yes">
-<attribute name="VALUE" x="27.94" y="12.446" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="SUPPLY3" gate="G$1" x="21.59" y="21.59" smashed="yes">
-<attribute name="VALUE" x="21.59" y="24.384" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY4" gate="G$1" x="15.24" y="21.59" smashed="yes">
-<attribute name="VALUE" x="15.24" y="24.384" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="GND2" gate="1" x="21.59" y="15.24" smashed="yes">
-<attribute name="VALUE" x="21.59" y="12.446" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="GND3" gate="1" x="15.24" y="15.24" smashed="yes">
-<attribute name="VALUE" x="15.24" y="12.446" size="1.778" layer="96" align="top-center"/>
-</instance>
 <instance part="J1" gate="G$1" x="102.87" y="199.39" smashed="yes">
 <attribute name="NAME" x="97.79" y="209.804" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="97.79" y="207.264" size="1.778" layer="96" font="vector"/>
 <attribute name="LCSC" x="102.87" y="199.39" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="157.48" y="212.09" smashed="yes">
-<attribute name="VALUE" x="157.48" y="214.884" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="157.48" y="214.63" smashed="yes">
+<attribute name="VALUE" x="157.48" y="217.424" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND4" gate="1" x="120.65" y="190.5" smashed="yes">
 <attribute name="VALUE" x="120.65" y="187.706" size="1.778" layer="96" align="top-center"/>
@@ -4046,10 +4001,10 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <instance part="GND5" gate="1" x="99.06" y="187.96" smashed="yes">
 <attribute name="VALUE" x="99.06" y="185.166" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="D1" gate="G$1" x="148.59" y="209.55" smashed="yes">
-<attribute name="NAME" x="146.05" y="211.582" size="1.778" layer="95"/>
-<attribute name="VALUE" x="146.05" y="207.518" size="1.778" layer="96" align="top-left"/>
-<attribute name="LCSC" x="148.59" y="209.55" size="1.27" layer="96" display="off"/>
+<instance part="D1" gate="G$1" x="148.59" y="212.09" smashed="yes">
+<attribute name="NAME" x="146.05" y="214.122" size="1.778" layer="95"/>
+<attribute name="VALUE" x="146.05" y="210.058" size="1.778" layer="96" align="top-left"/>
+<attribute name="LCSC" x="148.59" y="212.09" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="194.31" y="210.82" smashed="yes">
 <attribute name="VALUE" x="194.31" y="213.614" size="1.778" layer="96" align="bottom-center"/>
@@ -4170,7 +4125,6 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <net name="USB_N" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="D-"/>
-<label x="120.65" y="200.66" size="1.27" layer="95" xref="yes"/>
 <pinref part="D2" gate="G$1" pin="IO3"/>
 <wire x1="139.7" y1="204.47" x2="139.7" y2="207.01" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="207.01" x2="137.16" y2="207.01" width="0.1524" layer="91"/>
@@ -4192,7 +4146,6 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <net name="USB_P" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="D+"/>
-<label x="120.65" y="198.12" size="1.27" layer="95" xref="yes"/>
 <wire x1="113.03" y1="198.12" x2="130.81" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="130.81" y1="198.12" x2="130.81" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="IO2"/>
@@ -4215,14 +4168,14 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="VBUS"/>
 <wire x1="113.03" y1="203.2" x2="120.65" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="120.65" y1="203.2" x2="120.65" y2="209.55" width="0.1524" layer="91"/>
-<wire x1="120.65" y1="209.55" x2="142.24" y2="209.55" width="0.1524" layer="91"/>
+<wire x1="120.65" y1="203.2" x2="120.65" y2="212.09" width="0.1524" layer="91"/>
+<wire x1="120.65" y1="212.09" x2="142.24" y2="212.09" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="D2" gate="G$1" pin="VCC"/>
-<wire x1="142.24" y1="209.55" x2="146.05" y2="209.55" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="212.09" x2="146.05" y2="212.09" width="0.1524" layer="91"/>
 <wire x1="138.43" y1="200.66" x2="142.24" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="200.66" x2="142.24" y2="209.55" width="0.1524" layer="91"/>
-<junction x="142.24" y="209.55"/>
+<wire x1="142.24" y1="200.66" x2="142.24" y2="212.09" width="0.1524" layer="91"/>
+<junction x="142.24" y="212.09"/>
 <wire x1="137.16" y1="204.47" x2="137.16" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="205.74" x2="138.43" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="138.43" y1="205.74" x2="138.43" y2="200.66" width="0.1524" layer="91"/>
@@ -4298,8 +4251,8 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
-<wire x1="151.13" y1="209.55" x2="157.48" y2="209.55" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="209.55" x2="157.48" y2="212.09" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="212.09" x2="157.48" y2="212.09" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="212.09" x2="157.48" y2="214.63" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="209.55" y1="207.01" x2="207.01" y2="207.01" width="0.1524" layer="91"/>
@@ -4352,26 +4305,26 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 </net>
 <net name="UART_RX" class="0">
 <segment>
-<label x="187.96" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="TX"/>
-<wire x1="187.96" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="275.59" y1="123.19" x2="266.7" y2="123.19" width="0.1524" layer="91"/>
 <label x="266.7" y="123.19" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP1" gate="A" pin="4"/>
 </segment>
-</net>
-<net name="UART_TX" class="0">
 <segment>
 <label x="187.96" y="127" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="RX"/>
 <wire x1="187.96" y1="127" x2="180.34" y2="127" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="UART_TX" class="0">
 <segment>
 <wire x1="275.59" y1="125.73" x2="266.7" y2="125.73" width="0.1524" layer="91"/>
 <label x="266.7" y="125.73" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP1" gate="A" pin="3"/>
+</segment>
+<segment>
+<label x="187.96" y="124.46" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="TX"/>
+<wire x1="187.96" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
