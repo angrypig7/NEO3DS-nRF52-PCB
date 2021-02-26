@@ -4310,9 +4310,9 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <pinref part="JP1" gate="A" pin="4"/>
 </segment>
 <segment>
-<label x="187.96" y="127" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="RX"/>
-<wire x1="187.96" y1="127" x2="180.34" y2="127" width="0.1524" layer="91"/>
+<label x="187.96" y="124.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="187.96" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="TX"/>
 </segment>
 </net>
 <net name="UART_TX" class="0">
@@ -4322,9 +4322,9 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <pinref part="JP1" gate="A" pin="3"/>
 </segment>
 <segment>
-<label x="187.96" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="TX"/>
-<wire x1="187.96" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
+<label x="187.96" y="127" size="1.27" layer="95" xref="yes"/>
+<wire x1="187.96" y1="127" x2="180.34" y2="127" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="RX"/>
 </segment>
 </net>
 <net name="N$6" class="0">

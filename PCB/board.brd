@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1726,7 +1726,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="JP1" pad="4"/>
 <via x="8.382" y="3.429" extent="1-16" drill="0.2"/>
 <contactref element="U2" pad="10"/>
-<wire x1="8.509" y1="2.42025625" x2="8.35631875" y2="2.5729375" width="0.2032" layer="1"/>
+<wire x1="8.35631875" y1="2.5729375" x2="8.509" y2="2.42025625" width="0.2032" layer="1"/>
 <wire x1="8.35631875" y1="3.40331875" x2="8.382" y2="3.429" width="0.2032" layer="1"/>
 <wire x1="8.35631875" y1="2.5729375" x2="8.35631875" y2="3.40331875" width="0.2032" layer="1"/>
 <wire x1="8.382" y1="3.429" x2="9.0508375" y2="3.429" width="0.2032" layer="1"/>
@@ -1747,14 +1747,13 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="3.666" y1="5.224" x2="1.397" y2="5.224" width="0.2032" layer="16"/>
 <wire x1="8.382" y1="3.429" x2="5.83474375" y2="3.429" width="0.2032" layer="16"/>
 <wire x1="5.30831875" y1="3.58168125" x2="3.666" y2="5.224" width="0.2032" layer="16"/>
-<contactref element="U1" pad="9"/>
-<wire x1="8.509" y1="2.42025625" x2="9.009" y2="1.533" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="8"/>
+<wire x1="8.509" y1="2.42025625" x2="8.509" y2="1.533" width="0.2032" layer="1"/>
 </signal>
 <signal name="UART_TX">
 <contactref element="JP1" pad="3"/>
 <via x="8.89" y="2.794" extent="1-16" drill="0.2"/>
 <contactref element="U2" pad="8"/>
-<wire x1="9.017" y1="2.667" x2="9.017" y2="1.541" width="0.2032" layer="1"/>
 <wire x1="8.89" y1="2.794" x2="9.017" y2="2.667" width="0.2032" layer="1"/>
 <wire x1="8.89" y1="2.794" x2="9.42368125" y2="3.32768125" width="0.2032" layer="1"/>
 <wire x1="9.42368125" y1="3.32768125" x2="10.89631875" y2="3.32768125" width="0.2032" layer="1"/>
@@ -1779,8 +1778,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="2.8181625" y1="7.764" x2="1.397" y2="7.764" width="0.2032" layer="1"/>
 <wire x1="8.89" y1="2.794" x2="5.715" y2="2.794" width="0.2032" layer="16"/>
 <wire x1="3.556" y1="5.715" x2="3.556" y2="7.0261625" width="0.2032" layer="1"/>
-<contactref element="U1" pad="8"/>
-<wire x1="8.509" y1="1.533" x2="9.017" y2="1.541" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="9"/>
+<wire x1="8.89" y1="2.794" x2="9.009" y2="2.675" width="0.2032" layer="1"/>
+<wire x1="9.009" y1="2.675" x2="9.009" y2="1.533" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="D3" pad="A"/>
@@ -2047,10 +2047,10 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <approved hash="5,16,490b8c1ab3d7dfb2"/>
 <approved hash="5,1,a580b8c3bde790db"/>
 <approved hash="5,1,30c55383a366dbde"/>
-<approved hash="5,16,1c357443153491c6"/>
 <approved hash="19,1,05e11893c094dd85"/>
 <approved hash="19,1,4a5d49bff5c5f627"/>
 <approved hash="19,1,82cefbb8c7016ada"/>
+<approved hash="5,16,6f74ecbe95bbfaf5"/>
 </errors>
 </board>
 </drawing>
