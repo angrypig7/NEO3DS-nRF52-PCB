@@ -667,18 +667,18 @@ Shield pins may be grounded.
 <hole x="-0.1" y="2.25" drill="1"/>
 <hole x="-0.1" y="-2.25" drill="1"/>
 <text x="5.334" y="0" size="1.143" layer="27" font="vector" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
-<wire x1="-1.1" y1="6.2" x2="-1.1" y2="5.4" width="0" layer="46"/>
+<wire x1="-1.1" y1="6.7" x2="-1.1" y2="5.4" width="0" layer="46"/>
 <wire x1="-1.1" y1="5.4" x2="1.1" y2="5.4" width="0" layer="46"/>
-<wire x1="1.1" y1="5.4" x2="1.1" y2="6.2" width="0" layer="46"/>
-<wire x1="1.1" y1="6.2" x2="-1.1" y2="6.2" width="0" layer="46"/>
-<wire x1="-1.1" y1="-5.4" x2="-1.1" y2="-6.2" width="0" layer="46"/>
-<wire x1="-1.1" y1="-6.2" x2="1.1" y2="-6.2" width="0" layer="46"/>
-<wire x1="1.1" y1="-6.2" x2="1.1" y2="-5.4" width="0" layer="46"/>
+<wire x1="1.1" y1="5.4" x2="1.1" y2="6.7" width="0" layer="46"/>
+<wire x1="1.1" y1="6.7" x2="-1.1" y2="6.7" width="0" layer="46"/>
+<wire x1="-1.1" y1="-5.4" x2="-1.1" y2="-6.7" width="0" layer="46"/>
+<wire x1="-1.1" y1="-6.7" x2="1.1" y2="-6.7" width="0" layer="46"/>
+<wire x1="1.1" y1="-6.7" x2="1.1" y2="-5.4" width="0" layer="46"/>
 <wire x1="1.1" y1="-5.4" x2="-1.1" y2="-5.4" width="0" layer="46"/>
-<smd name="SHIELD@0" x="0" y="6.1" dx="4" dy="1.6" layer="1" roundness="40"/>
-<smd name="SHIELD@1" x="-0.1" y="-6" dx="4" dy="1.4" layer="1" roundness="40"/>
-<smd name="SHIELD@2" x="0" y="6.1" dx="4" dy="1.6" layer="16" roundness="40"/>
-<smd name="SHIELD@3" x="-0.1" y="-6" dx="4" dy="1.4" layer="16" roundness="40"/>
+<smd name="SHIELD@0" x="0" y="6.2" dx="4" dy="1.8" layer="1" roundness="40"/>
+<smd name="SHIELD@1" x="0" y="-6.2" dx="4" dy="1.8" layer="1" roundness="40"/>
+<smd name="SHIELD@2" x="0" y="6.2" dx="4" dy="1.8" layer="16" roundness="40"/>
+<smd name="SHIELD@3" x="0" y="-6.2" dx="4" dy="1.8" layer="16" roundness="40"/>
 </package>
 <package name="USB-A-H">
 <wire x1="-17.8" y1="6" x2="-17.8" y2="-6" width="0.2032" layer="51"/>
@@ -3681,7 +3681,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <attribute name="LCSC" value="C77540"/>
 </part>
 <part name="J1" library="angrypig7-Connectors-USB" deviceset="USB-A" device="_PTH_MALE-U-G-O4DD-W-1" override_package3d_urn="urn:adsk.eagle:package:25895599/4" override_package_urn="urn:adsk.eagle:footprint:25895600/1" override_locally_modified="yes" value="USB-A_PTH_MALE">
-<attribute name="LCSC" value="C98125"/>
+<attribute name="LCSC" value="C9739"/>
 </part>
 <part name="SUPPLY1" library="angrypig7-Symbols" deviceset="5V" device=""/>
 <part name="GND4" library="angrypig7-Symbols" deviceset="GND" device=""/>

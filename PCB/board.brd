@@ -8,7 +8,7 @@
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -375,18 +375,18 @@ P.05</text>
 <hole x="-0.1" y="2.25" drill="1"/>
 <hole x="-0.1" y="-2.25" drill="1"/>
 <text x="5.334" y="0" size="1.143" layer="27" font="vector" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
-<wire x1="-1.1" y1="6.2" x2="-1.1" y2="5.4" width="0" layer="46"/>
+<wire x1="-1.1" y1="6.7" x2="-1.1" y2="5.4" width="0" layer="46"/>
 <wire x1="-1.1" y1="5.4" x2="1.1" y2="5.4" width="0" layer="46"/>
-<wire x1="1.1" y1="5.4" x2="1.1" y2="6.2" width="0" layer="46"/>
-<wire x1="1.1" y1="6.2" x2="-1.1" y2="6.2" width="0" layer="46"/>
-<wire x1="-1.1" y1="-5.4" x2="-1.1" y2="-6.2" width="0" layer="46"/>
-<wire x1="-1.1" y1="-6.2" x2="1.1" y2="-6.2" width="0" layer="46"/>
-<wire x1="1.1" y1="-6.2" x2="1.1" y2="-5.4" width="0" layer="46"/>
+<wire x1="1.1" y1="5.4" x2="1.1" y2="6.7" width="0" layer="46"/>
+<wire x1="1.1" y1="6.7" x2="-1.1" y2="6.7" width="0" layer="46"/>
+<wire x1="-1.1" y1="-5.4" x2="-1.1" y2="-6.7" width="0" layer="46"/>
+<wire x1="-1.1" y1="-6.7" x2="1.1" y2="-6.7" width="0" layer="46"/>
+<wire x1="1.1" y1="-6.7" x2="1.1" y2="-5.4" width="0" layer="46"/>
 <wire x1="1.1" y1="-5.4" x2="-1.1" y2="-5.4" width="0" layer="46"/>
-<smd name="SHIELD@0" x="0" y="6.1" dx="4" dy="1.6" layer="1" roundness="40"/>
-<smd name="SHIELD@1" x="-0.1" y="-6" dx="4" dy="1.4" layer="1" roundness="40"/>
-<smd name="SHIELD@2" x="0" y="6.1" dx="4" dy="1.6" layer="16" roundness="40"/>
-<smd name="SHIELD@3" x="-0.1" y="-6" dx="4" dy="1.4" layer="16" roundness="40"/>
+<smd name="SHIELD@0" x="0" y="6.2" dx="4" dy="1.8" layer="1" roundness="40"/>
+<smd name="SHIELD@1" x="0" y="-6.2" dx="4" dy="1.8" layer="1" roundness="40"/>
+<smd name="SHIELD@2" x="0" y="6.2" dx="4" dy="1.8" layer="16" roundness="40"/>
+<smd name="SHIELD@3" x="0" y="-6.2" dx="4" dy="1.8" layer="16" roundness="40"/>
 </package>
 </packages>
 </library>
@@ -1069,7 +1069,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VALUE" x="24.384" y="5.5341" size="1.143" layer="27" font="vector" ratio="12" align="top-center"/>
 </element>
 <element name="J1" library="angrypig7-Connectors-USB" package="USB-A-H-RECT" override_package3d_urn="urn:adsk.eagle:package:25895599/4" override_package_urn="urn:adsk.eagle:footprint:25895600/1" override_locally_modified="yes" value="USB-A_PTH_MALE" x="2.794" y="9" smashed="yes">
-<attribute name="LCSC" value="C98125" x="2.794" y="9" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C9739" x="2.794" y="9" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="8.128" y="9.254" size="1.143" layer="27" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 </element>
 <element name="D1" library="angrypig7-Diodes" package="SOD-123" package3d_urn="urn:adsk.eagle:package:22471064/2" value="B5819W" x="8.382" y="13.589" smashed="yes" rot="R180">
