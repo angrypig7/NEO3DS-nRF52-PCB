@@ -531,7 +531,71 @@
 </library>
 <library name="angrypig7-Connectors-USB">
 <packages>
-<package name="USB-A-S-NOSILK-FEMALE">
+<package name="USB-A-MALE-H-PTH-1">
+<description>&lt;b&gt;Korean Hroparts Elec U-G-04WS-W-01&lt;/b&gt;</description>
+<wire x1="-17.75" y1="6" x2="-17.75" y2="-6" width="0.2032" layer="51"/>
+<wire x1="-3" y1="6" x2="-3" y2="-6" width="0.2032" layer="51"/>
+<wire x1="-3" y1="6" x2="-17.75" y2="6" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-6" x2="-17.75" y2="-6" width="0.2032" layer="51"/>
+<wire x1="-3" y1="6" x2="-2" y2="6" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-6" x2="-2" y2="-6" width="0.2032" layer="51"/>
+<wire x1="-12.6" y1="4.25" x2="-12.6" y2="1.75" width="0.15" layer="51"/>
+<wire x1="-12.6" y1="1.75" x2="-10.6" y2="1.75" width="0.15" layer="51"/>
+<wire x1="-10.6" y1="1.75" x2="-10.6" y2="4.25" width="0.15" layer="51"/>
+<wire x1="-10.6" y1="4.25" x2="-12.6" y2="4.25" width="0.15" layer="51"/>
+<wire x1="-12.6" y1="-1.75" x2="-12.6" y2="-4.25" width="0.15" layer="51"/>
+<wire x1="-12.6" y1="-4.25" x2="-10.6" y2="-4.25" width="0.15" layer="51"/>
+<wire x1="-10.6" y1="-4.25" x2="-10.6" y2="-1.75" width="0.15" layer="51"/>
+<wire x1="-10.6" y1="-1.75" x2="-12.6" y2="-1.75" width="0.15" layer="51"/>
+<pad name="GND" x="2.4" y="3.5" drill="0.8" diameter="1.524" rot="R270"/>
+<pad name="D+" x="2.4" y="1" drill="0.8" diameter="1.524" rot="R270"/>
+<pad name="D-" x="2.4" y="-1" drill="0.8" diameter="1.524" rot="R270"/>
+<pad name="VBUS" x="2.4" y="-3.5" drill="0.8" diameter="1.524" rot="R270"/>
+<text x="3.81" y="0" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center">&gt;NAME</text>
+<hole x="-0.1" y="2.25" drill="1"/>
+<hole x="-0.1" y="-2.25" drill="1"/>
+<text x="5.334" y="0" size="1.143" layer="27" font="vector" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
+<wire x1="-1.1" y1="6.7" x2="-1.1" y2="5.4" width="0" layer="46"/>
+<wire x1="-1.1" y1="5.4" x2="1.1" y2="5.4" width="0" layer="46"/>
+<wire x1="1.1" y1="5.4" x2="1.1" y2="6.7" width="0" layer="46"/>
+<wire x1="1.1" y1="6.7" x2="-1.1" y2="6.7" width="0" layer="46"/>
+<wire x1="-1.1" y1="-5.4" x2="-1.1" y2="-6.7" width="0" layer="46"/>
+<wire x1="-1.1" y1="-6.7" x2="1.1" y2="-6.7" width="0" layer="46"/>
+<wire x1="1.1" y1="-6.7" x2="1.1" y2="-5.4" width="0" layer="46"/>
+<wire x1="1.1" y1="-5.4" x2="-1.1" y2="-5.4" width="0" layer="46"/>
+<smd name="SHIELD@0" x="0" y="6.2" dx="4" dy="1.8" layer="1" roundness="40"/>
+<smd name="SHIELD@1" x="0" y="-6.2" dx="4" dy="1.8" layer="1" roundness="40"/>
+<smd name="SHIELD@2" x="0" y="6.2" dx="4" dy="1.8" layer="16" roundness="40"/>
+<smd name="SHIELD@3" x="0" y="-6.2" dx="4" dy="1.8" layer="16" roundness="40"/>
+</package>
+<package name="USB-A-MALE-H-PTH">
+<wire x1="-17.8" y1="6" x2="-17.8" y2="-6" width="0.2032" layer="51"/>
+<wire x1="-3" y1="6" x2="-3" y2="-6" width="0.2032" layer="21"/>
+<wire x1="-3" y1="6" x2="-17.8" y2="6" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-6" x2="-17.8" y2="-6" width="0.2032" layer="51"/>
+<wire x1="-3" y1="6" x2="-2" y2="6" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-6" x2="-2" y2="-6" width="0.2032" layer="21"/>
+<wire x1="1" y1="-4" x2="1" y2="4" width="0.2032" layer="21"/>
+<wire x1="-13.5" y1="4.3" x2="-13.5" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-13.5" y1="1.9" x2="-11.2" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-11.2" y1="1.9" x2="-11.2" y2="4.3" width="0.2032" layer="51"/>
+<wire x1="-11.2" y1="4.3" x2="-13.5" y2="4.3" width="0.2032" layer="51"/>
+<wire x1="-13.5" y1="-1.9" x2="-13.5" y2="-4.3" width="0.2032" layer="51"/>
+<wire x1="-13.5" y1="-4.3" x2="-11.2" y2="-4.3" width="0.2032" layer="51"/>
+<wire x1="-11.2" y1="-4.3" x2="-11.2" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-11.2" y1="-1.9" x2="-13.5" y2="-1.9" width="0.2032" layer="51"/>
+<pad name="GND" x="2.4" y="3.5" drill="0.9" diameter="1.524" rot="R270"/>
+<pad name="D+" x="2.4" y="1" drill="0.9" diameter="1.524" rot="R270"/>
+<pad name="D-" x="2.4" y="-1" drill="0.9" diameter="1.524" rot="R270"/>
+<pad name="VBUS" x="2.4" y="-3.5" drill="0.9" diameter="1.524" rot="R270"/>
+<pad name="SHLD1" x="0" y="-5.85" drill="2.4" rot="R270"/>
+<pad name="SHLD2" x="0" y="5.85" drill="2.4" rot="R270"/>
+<text x="3.81" y="0" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center">&gt;NAME</text>
+<hole x="-0.1" y="2.25" drill="1"/>
+<hole x="-0.1" y="-2.25" drill="1"/>
+<text x="5.334" y="0.254" size="1.143" layer="27" font="vector" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="USB-A-FEMALE-1-NOSILK">
 <description>&lt;h3&gt;USB Type 'A' Female Connector - SMT No Silk&lt;/h3&gt;
 Shield pins may be grounded.
 &lt;br&gt; tDocu shows plug end. 
@@ -561,7 +625,7 @@ Shield pins may be grounded.
 <text x="-6.35" y="6.858" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-6.35" y="-6.858" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
-<package name="USB-A-SMT-MALE">
+<package name="USB-A-MALE-H-SMT">
 <description>&lt;h3&gt;USB Type 'A' Male Connector - SMT&lt;/h3&gt;
 Shield pins may be grounded.
 &lt;br&gt; tDocu shows plug end. 
@@ -607,7 +671,7 @@ Shield pins may be grounded.
 <hole x="7.33" y="5.85" drill="0.8"/>
 <text x="-2.7" y="-6.53" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUES</text>
 </package>
-<package name="USB-A-S-SILK-FEMALE">
+<package name="USB-A-FEMALE-1">
 <description>&lt;h3&gt;USB Type 'A' Female Connector - SMT Silk Outline&lt;/h3&gt;
 Shield pins may be grounded.
 &lt;br&gt; tDocu shows plug end. 
@@ -644,68 +708,28 @@ Shield pins may be grounded.
 <text x="-6.35" y="6.858" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-6.35" y="-6.858" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
-<package name="USB-A-H-RECT">
-<wire x1="-17.75" y1="6" x2="-17.75" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="6" x2="-3" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="6" x2="-17.75" y2="6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-6" x2="-17.75" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="6" x2="-2" y2="6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-6" x2="-2" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-12.6" y1="4.25" x2="-12.6" y2="1.75" width="0.15" layer="51"/>
-<wire x1="-12.6" y1="1.75" x2="-10.6" y2="1.75" width="0.15" layer="51"/>
-<wire x1="-10.6" y1="1.75" x2="-10.6" y2="4.25" width="0.15" layer="51"/>
-<wire x1="-10.6" y1="4.25" x2="-12.6" y2="4.25" width="0.15" layer="51"/>
-<wire x1="-12.6" y1="-1.75" x2="-12.6" y2="-4.25" width="0.15" layer="51"/>
-<wire x1="-12.6" y1="-4.25" x2="-10.6" y2="-4.25" width="0.15" layer="51"/>
-<wire x1="-10.6" y1="-4.25" x2="-10.6" y2="-1.75" width="0.15" layer="51"/>
-<wire x1="-10.6" y1="-1.75" x2="-12.6" y2="-1.75" width="0.15" layer="51"/>
-<pad name="GND" x="2.4" y="3.5" drill="0.8" diameter="1.524" rot="R270"/>
-<pad name="D+" x="2.4" y="1" drill="0.8" diameter="1.524" rot="R270"/>
-<pad name="D-" x="2.4" y="-1" drill="0.8" diameter="1.524" rot="R270"/>
-<pad name="VBUS" x="2.4" y="-3.5" drill="0.8" diameter="1.524" rot="R270"/>
-<text x="3.81" y="0" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center">&gt;NAME</text>
-<hole x="-0.1" y="2.25" drill="1"/>
-<hole x="-0.1" y="-2.25" drill="1"/>
-<text x="5.334" y="0" size="1.143" layer="27" font="vector" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
-<wire x1="-1.1" y1="6.7" x2="-1.1" y2="5.4" width="0" layer="46"/>
-<wire x1="-1.1" y1="5.4" x2="1.1" y2="5.4" width="0" layer="46"/>
-<wire x1="1.1" y1="5.4" x2="1.1" y2="6.7" width="0" layer="46"/>
-<wire x1="1.1" y1="6.7" x2="-1.1" y2="6.7" width="0" layer="46"/>
-<wire x1="-1.1" y1="-5.4" x2="-1.1" y2="-6.7" width="0" layer="46"/>
-<wire x1="-1.1" y1="-6.7" x2="1.1" y2="-6.7" width="0" layer="46"/>
-<wire x1="1.1" y1="-6.7" x2="1.1" y2="-5.4" width="0" layer="46"/>
-<wire x1="1.1" y1="-5.4" x2="-1.1" y2="-5.4" width="0" layer="46"/>
-<smd name="SHIELD@0" x="0" y="6.2" dx="4" dy="1.8" layer="1" roundness="40"/>
-<smd name="SHIELD@1" x="0" y="-6.2" dx="4" dy="1.8" layer="1" roundness="40"/>
-<smd name="SHIELD@2" x="0" y="6.2" dx="4" dy="1.8" layer="16" roundness="40"/>
-<smd name="SHIELD@3" x="0" y="-6.2" dx="4" dy="1.8" layer="16" roundness="40"/>
-</package>
-<package name="USB-A-H">
-<wire x1="-17.8" y1="6" x2="-17.8" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="6" x2="-3" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-3" y1="6" x2="-17.8" y2="6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-6" x2="-17.8" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="6" x2="-2" y2="6" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-6" x2="-2" y2="-6" width="0.2032" layer="21"/>
-<wire x1="1" y1="-4" x2="1" y2="4" width="0.2032" layer="21"/>
-<wire x1="-13.5" y1="4.3" x2="-13.5" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-13.5" y1="1.9" x2="-11.2" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="1.9" x2="-11.2" y2="4.3" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="4.3" x2="-13.5" y2="4.3" width="0.2032" layer="51"/>
-<wire x1="-13.5" y1="-1.9" x2="-13.5" y2="-4.3" width="0.2032" layer="51"/>
-<wire x1="-13.5" y1="-4.3" x2="-11.2" y2="-4.3" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="-4.3" x2="-11.2" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="-1.9" x2="-13.5" y2="-1.9" width="0.2032" layer="51"/>
-<pad name="GND" x="2.4" y="3.5" drill="0.9" diameter="1.524" rot="R270"/>
-<pad name="D+" x="2.4" y="1" drill="0.9" diameter="1.524" rot="R270"/>
-<pad name="D-" x="2.4" y="-1" drill="0.9" diameter="1.524" rot="R270"/>
-<pad name="VBUS" x="2.4" y="-3.5" drill="0.9" diameter="1.524" rot="R270"/>
-<pad name="SHLD1" x="0" y="-5.85" drill="2.4" rot="R270"/>
-<pad name="SHLD2" x="0" y="5.85" drill="2.4" rot="R270"/>
-<text x="3.81" y="0" size="1.143" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center">&gt;NAME</text>
-<hole x="-0.1" y="2.25" drill="1"/>
-<hole x="-0.1" y="-2.25" drill="1"/>
-<text x="5.334" y="0.254" size="1.143" layer="27" font="vector" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
+<package name="USB-A-FEMALE-2">
+<description>&lt;b&gt;Korean Hroparts Elec U-A-24SS-W-1&lt;/b&gt;</description>
+<wire x1="-0.4163" y1="6.575" x2="-14.399" y2="6.575" width="0.127" layer="51"/>
+<wire x1="-0.4163" y1="-6.575" x2="-14.399" y2="-6.575" width="0.127" layer="51"/>
+<wire x1="-14.399" y1="6.575" x2="-14.399" y2="-6.575" width="0.127" layer="51"/>
+<wire x1="-0.4036" y1="6.575" x2="-0.4036" y2="-6.575" width="0.127" layer="51"/>
+<wire x1="-6.652" y1="-5.08" x2="-13.002" y2="-4.445" width="0.127" layer="51"/>
+<wire x1="-13.002" y1="-4.445" x2="-13.002" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-13.002" y1="-1.27" x2="-6.652" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-6.652" y1="5.08" x2="-13.002" y2="4.445" width="0.127" layer="51"/>
+<wire x1="-13.002" y1="4.445" x2="-13.002" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-13.002" y1="1.27" x2="-6.652" y2="0.635" width="0.127" layer="51"/>
+<smd name="D-" x="0.1" y="1" dx="2.8" dy="1" layer="1"/>
+<smd name="VBUS" x="0.1" y="3.5" dx="2.8" dy="1" layer="1"/>
+<smd name="D+" x="0.1" y="-1" dx="2.8" dy="1" layer="1"/>
+<smd name="GND" x="0.1" y="-3.5" dx="2.8" dy="1" layer="1"/>
+<text x="-11.811" y="6.858" size="1.016" layer="25" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="-11.811" y="-6.858" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="bottom-center">&gt;VALUE</text>
+<smd name="SHIELD@0" x="-2.35" y="8.225" dx="4.7" dy="2.2" layer="1"/>
+<smd name="SHIELD@1" x="-2.35" y="-8.225" dx="4.7" dy="2.2" layer="1"/>
+<hole x="-3.45" y="2.5" drill="1.15"/>
+<hole x="-3.45" y="-2.5" drill="1.15"/>
 </package>
 </packages>
 <symbols>
@@ -731,7 +755,7 @@ Shield pins may be grounded.
 <gate name="G$1" symbol="USB" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="_PTH_MALE" package="USB-A-H">
+<device name="_PTH_MALE" package="USB-A-MALE-H-PTH">
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
@@ -746,7 +770,7 @@ Shield pins may be grounded.
 </technology>
 </technologies>
 </device>
-<device name="_SMT_FEMALE_NS" package="USB-A-S-NOSILK-FEMALE">
+<device name="_SMT_FEMALE_NS" package="USB-A-FEMALE-1-NOSILK">
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
@@ -761,7 +785,7 @@ Shield pins may be grounded.
 </technology>
 </technologies>
 </device>
-<device name="_SMT_MALE" package="USB-A-SMT-MALE">
+<device name="_SMT_MALE" package="USB-A-MALE-H-SMT">
 <connects>
 <connect gate="G$1" pin="D+" pad="D+1"/>
 <connect gate="G$1" pin="D-" pad="D-1"/>
@@ -775,7 +799,7 @@ Shield pins may be grounded.
 </technology>
 </technologies>
 </device>
-<device name="_SMT_FEMALE" package="USB-A-S-SILK-FEMALE">
+<device name="_SMT_FEMALE" package="USB-A-FEMALE-1">
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
@@ -790,12 +814,24 @@ Shield pins may be grounded.
 </technology>
 </technologies>
 </device>
-<device name="_PTH_MALE-U-G-O4DD-W-1" package="USB-A-H-RECT">
+<device name="_PTH_MALE-U-G-O4DD-W-1" package="USB-A-MALE-H-PTH-1">
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="SHIELD" pad="SHIELD@0 SHIELD@1 SHIELD@2 SHIELD@3"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SMT_FEMALE-1" package="USB-A-FEMALE-2">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SHIELD" pad="SHIELD@0 SHIELD@1"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
@@ -998,22 +1034,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
 <rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
 </package>
-<package name="R0603" urn="urn:adsk.eagle:footprint:23044/1" locally_modified="yes">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.783" x2="1.473" y2="0.783" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.783" x2="1.473" y2="-0.783" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.783" x2="-1.473" y2="-0.783" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.783" x2="-1.473" y2="0.783" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="0" y="1.27" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="0" y="-1.27" size="1.27" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
 <package name="R1210" urn="urn:adsk.eagle:footprint:23049/1">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
@@ -1029,6 +1049,22 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
 <rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
 <rectangle x1="-0.3" y1="-0.8999" x2="0.3" y2="0.8999" layer="35"/>
+</package>
+<package name="R0603" urn="urn:adsk.eagle:footprint:23044/1" locally_modified="yes">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.783" x2="1.473" y2="0.783" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.783" x2="1.473" y2="-0.783" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.783" x2="-1.473" y2="-0.783" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.783" x2="-1.473" y2="0.783" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="0" y="1.397" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-1.397" size="1.27" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 </packages>
 <packages3d>
@@ -1113,16 +1149,16 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <packageinstance name="R1206"/>
 </packageinstances>
 </package3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:23555/54" type="model">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0603"/>
-</packageinstances>
-</package3d>
 <package3d name="R1210" urn="urn:adsk.eagle:package:23554/2" type="model">
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R1210"/>
+</packageinstances>
+</package3d>
+<package3d name="R0603" urn="urn:adsk.eagle:package:23555/54" type="model">
+<description>RESISTOR</description>
+<packageinstances>
+<packageinstance name="R0603"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2409,7 +2445,36 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <hole x="0.635" y="-2.54" drill="2.3749"/>
 <hole x="-2.54" y="-2.54" drill="2.3749"/>
 </package>
+<package name="TC2030-IDC-DOUBLE" urn="urn:adsk.eagle:footprint:28028514/1">
+<hole x="-2.54" y="0" drill="0.9906"/>
+<hole x="2.54" y="1.016" drill="0.9906"/>
+<hole x="2.54" y="-1.016" drill="0.9906"/>
+<hole x="0.635" y="2.54" drill="2.3749"/>
+<hole x="-2.54" y="2.54" drill="2.3749"/>
+<hole x="0.635" y="-2.54" drill="2.3749"/>
+<hole x="-2.54" y="-2.54" drill="2.3749"/>
+<rectangle x1="-3.3147" y1="-5.14985" x2="-1.7653" y2="-2.54" layer="40"/>
+<rectangle x1="-0.1397" y1="-5.14985" x2="1.4097" y2="-2.54" layer="40"/>
+<rectangle x1="-3.3147" y1="2.54" x2="-1.7653" y2="5.14985" layer="40"/>
+<rectangle x1="-0.1397" y1="2.54" x2="1.4097" y2="5.14985" layer="40"/>
+<rectangle x1="-1.016" y1="-0.381" x2="1.016" y2="0.381" layer="41"/>
+<text x="-4.445" y="0" size="0.762" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<pad name="1" x="-1.27" y="-0.635" drill="0.2" diameter="0.85"/>
+<pad name="2" x="-1.27" y="0.635" drill="0.2" diameter="0.85"/>
+<pad name="3" x="0" y="-0.635" drill="0.2" diameter="0.85"/>
+<pad name="4" x="0" y="0.635" drill="0.2" diameter="0.85"/>
+<pad name="5" x="1.27" y="-0.635" drill="0.2" diameter="0.78" thermals="no"/>
+<pad name="6" x="1.27" y="0.635" drill="0.2" diameter="0.85"/>
+<circle x="1.27" y="-0.635" radius="0.3175" width="0.1524" layer="29"/>
+</package>
 </packages>
+<packages3d>
+<package3d name="TC2030-IDC-DOUBLE" urn="urn:adsk.eagle:package:28028513/2" type="empty">
+<packageinstances>
+<packageinstance name="TC2030-IDC-DOUBLE"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="TC2030-IDC">
 <wire x1="-8.89" y1="5.08" x2="8.89" y2="5.08" width="0.4064" layer="94"/>
@@ -2425,7 +2490,7 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <text x="-8.89" y="-5.715" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <text x="-8.89" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 <pin name="VREF" x="-13.97" y="2.54" length="middle" direction="pas" swaplevel="1"/>
-<pin name="RST" x="-13.97" y="0" length="middle" direction="pas" swaplevel="1"/>
+<pin name="TDI" x="-13.97" y="0" length="middle" direction="pas" swaplevel="1"/>
 <pin name="GND" x="-13.97" y="-2.54" length="middle" direction="pas" swaplevel="1"/>
 <pin name="TMS" x="13.97" y="2.54" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="TCK" x="13.97" y="0" length="middle" direction="pas" swaplevel="1" rot="R180"/>
@@ -2450,8 +2515,8 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <device name="-NL" package="TC2030-IDC-NL">
 <connects>
 <connect gate="A" pin="GND" pad="5"/>
-<connect gate="A" pin="RST" pad="3"/>
 <connect gate="A" pin="TCK" pad="4"/>
+<connect gate="A" pin="TDI" pad="3"/>
 <connect gate="A" pin="TDO" pad="6"/>
 <connect gate="A" pin="TMS" pad="2"/>
 <connect gate="A" pin="VREF" pad="1"/>
@@ -2463,12 +2528,28 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <device name="" package="TC2030-IDC">
 <connects>
 <connect gate="A" pin="GND" pad="5"/>
-<connect gate="A" pin="RST" pad="3"/>
 <connect gate="A" pin="TCK" pad="4"/>
+<connect gate="A" pin="TDI" pad="3"/>
 <connect gate="A" pin="TDO" pad="6"/>
 <connect gate="A" pin="TMS" pad="2"/>
 <connect gate="A" pin="VREF" pad="1"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-DOUBLE" package="TC2030-IDC-DOUBLE">
+<connects>
+<connect gate="A" pin="GND" pad="5"/>
+<connect gate="A" pin="TCK" pad="4"/>
+<connect gate="A" pin="TDI" pad="3"/>
+<connect gate="A" pin="TDO" pad="6"/>
+<connect gate="A" pin="TMS" pad="2"/>
+<connect gate="A" pin="VREF" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28028513/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -3567,11 +3648,13 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <package name="TI-AN043_LEFT_SHORTER">
 <description>2.45GHz antenna from TI Application Note AN043</description>
 <pad name="GND" x="0.45" y="0.25" drill="0.35" stop="no" thermals="no"/>
-<smd name="RF" x="2.55" y="0.51" dx="1.016" dy="0.508" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="RF" x="2.55" y="0.61" dx="1.016" dy="0.4826" layer="1" roundness="100" rot="R90" stop="no" cream="no"/>
 <rectangle x1="-0.5" y1="0.5" x2="14.7" y2="5.7" layer="39"/>
 <rectangle x1="-0.5" y1="0.5" x2="14.7" y2="5.7" layer="40"/>
 <polygon width="0" layer="1">
-<vertex x="0" y="0"/>
+<vertex x="0.7" y="0"/>
+<vertex x="0.2" y="0"/>
+<vertex x="0" y="0.2"/>
 <vertex x="0" y="5.4"/>
 <vertex x="5" y="5.4"/>
 <vertex x="5" y="2.76"/>
@@ -3594,11 +3677,11 @@ Molded Body, 6.86 X 5.91 X 2.50 mm body
 <vertex x="4.5" y="2.26"/>
 <vertex x="4.5" y="4.9"/>
 <vertex x="2.8" y="4.9"/>
-<vertex x="2.8" y="0"/>
-<vertex x="2.3" y="0"/>
+<vertex x="2.8" y="0.3"/>
+<vertex x="2.3" y="0.3"/>
 <vertex x="2.3" y="4.9"/>
 <vertex x="0.9" y="4.9"/>
-<vertex x="0.9" y="0"/>
+<vertex x="0.9" y="0.2"/>
 </polygon>
 <wire x1="13.9" y1="2.46" x2="14.4" y2="2.46" width="0.1524" layer="21"/>
 <wire x1="13.9" y1="1.96" x2="14.4" y2="1.96" width="0.1524" layer="21"/>
@@ -4867,7 +4950,7 @@ Based on TI Design Note AN043&lt;br&gt;</description>
 <segment>
 <wire x1="337.82" y1="86.36" x2="330.2" y2="86.36" width="0.1524" layer="91"/>
 <label x="330.2" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="TC1" gate="A" pin="RST"/>
+<pinref part="TC1" gate="A" pin="TDI"/>
 </segment>
 </net>
 <net name="SWO" class="0">
